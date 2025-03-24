@@ -9,6 +9,10 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - Course Description: course-description.md
+  - Prompts:
+    - Introduction: prompts/index.md
+    - Bloom Taxonomy: prompts/02-bloom-taxonomy.md
+    - Concept Enumeration: prompts/03-concept-enumeration.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
