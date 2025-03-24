@@ -16,7 +16,7 @@ nav:
     - Concept Dependency: prompts/06-concept-dependency.md
     - Concept Taxonomy: prompts/08-concept-taxonomy.md
     - Concept Classification: prompts/10-concept-classification.md
-    - Glossary: prompts/12-glossary.md
+    - Glossary: prompts/12-glossary-prompt.md
     - List of MicroSims: prompts/14-list-of-microsims.md
   - MicroSims:
     - Introduction: sims/index.md
