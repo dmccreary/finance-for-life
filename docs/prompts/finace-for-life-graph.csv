@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Personal Finance,,1
+2,Financial Literacy,,1
+3,Money Management,1|2,1
+4,Financial Goals,1,1
+5,SMART Goals,4,1
+6,Financial Philosophy,1|2,1
+7,Financial Planning Process,1|3|4,12
+8,Balance Sheet,1|3,1
+9,Cash Flow Statement,1|3|8,2
+10,Budget,3|9,2
+11,Income Sources,3|9,1
+12,Expense Tracking,3|9|10,1
+13,Financial Statements,8|9,1
+14,Emergency Fund,3|8|9,6
+15,Financial Safety Net,3|14,1
+16,Life Cycle Financial Planning,1|3|4|6,11
+17,Fintech,1,1
+18,Banking System,1,1
+19,Commercial Banks,18,2
+20,Credit Unions,18,3
+21,Online Banks,18|17,2
+22,Checking Accounts,18|19|20|21,2
+23,Savings Accounts,18|19|20|21,2
+24,Money Market Accounts,18|19|20|21,2
+25,Bank Fees,18|19|20|21|22|23|24,2
+26,Interest Rates,1,4
+27,Electronic Banking,17|18|19|20|21,2
+28,Mobile Banking,17|27,2
+29,Cash Management,3|9|10,2
+30,Fee Management,25|29,2
+31,Bank Account Management,22|23|24|25|27|28|30,2
+32,Credit Score,1,3
+33,Credit Bureaus,32,3
+34,Credit Report,32|33,3
+35,Fraud Prevention,1|33|34,3
+36,Identity Theft,35,3
+37,Credit Counseling,32|34,3
+38,Credit Rehabilitation,32|34|37,3
+39,Credit Card,32,3
+40,Revolving Debt,39,3
+41,Installment Debt,1,3
+42,Strategic Borrowing,32|40|41,3
+43,Debt Reduction Strategies,40|41,3
+44,Debt Consolidation,41|43,3
+45,Auto Loans,26|32|41,4
+46,Student Loans,26|32|41,4
+47,Federal Student Loans,46,4
+48,Private Student Loans,46,4
+49,Personal Loans,26|32|41,4
+50,Payday Loans,26|32|41,4
+51,Mortgage Loans,26|32|41,4
+52,Mortgage Types,51,4
+53,Refinancing,51|52,4
+54,Reverse Mortgages,51|52,4
+55,Buy vs. Rent Analysis,51|52,4
+56,Small Business Loans,26|32|41,4
+57,Microloans,26|32|41,4
+58,Progressive Taxation,1,5
+59,Income Tax,58,5
+60,Payroll Tax,58,5
+61,Property Tax,58,5
+62,Sales Tax,58,5
+63,Tax Filing Status,59,5
+64,Dependents (Tax),59|63,5
+65,Standard Deduction,59,5
+66,Itemized Deductions,59|65,5
+67,Tax Credits,59,5
+68,Tax-Advantaged Accounts,59,5
+69,Tax Loss Harvesting,59|68,5
+70,Charitable Giving (Tax),59|66,5
+71,Estate Tax,58,5
+72,Risk Management,1,6
+73,Insurance Terminology,72,7
+74,Insurance Coverage,72|73,7
+75,Policy Exclusions,73|74,7
+76,Deductibles,73|74,7
+77,Premiums,73|74,7
+78,Claims Process,73|74,7
+79,Self-Insurance,72|73,7
+80,Health Insurance,72|73,7
+81,Health Insurance Plans,80,7
+82,Medicare,80,7
+83,Medicaid,80,7
+84,HSAs,68|80,7
+85,FSAs,68|80,7
+86,Healthcare Costs,80|81|82|83|84|85,7
+87,Auto Insurance,72|73,7
+88,Comprehensive Insurance,87,7
+89,Collision Insurance,87,7
+90,Liability Insurance,72|73,6
+91,Homeowners Insurance,72|73,7
+92,Renters Insurance,72|73,7
+93,Umbrella Liability Policies,90,6
+94,Life Insurance,72|73,7
+95,Term Life Insurance,94,7
+96,Permanent Life Insurance,94,7
+97,Long-Term Care Insurance,72|73,7
+98,Disability Insurance,72|73,7
+99,Compound Interest,26,8
+100,Risk-Return Relationship,1,1
+101,Time Value of Money,26|99,1
+102,Diversification,72,6
+103,Asset Allocation,102,8
+104,Dollar-Cost Averaging,1,1
+105,Investment Strategies,100|101|102|103|104,1
+106,Bonds,1,9
+107,Stocks,1,9
+108,ETFs,106|107,9
+109,Mutual Funds,106|107,9
+110,Index Funds,108|109,9
+111,REITs,1,10
+112,Options,107,9
+113,Futures,107,9
+114,Cryptocurrencies,1,9
+115,Private Equity,1,9
+116,Commodities,1,9
+117,Collectibles,1,9
+118,International Markets,107,9
+119,Emerging Markets,107|118,9
+120,Market Indices,107,9
+121,Market Cycles,107|120,9
+122,Economic Indicators,1,9
+123,Market Psychology,107|121,9
+124,Inflation,1,1
+125,Deflation,124,1
+126,Purchasing Power,124|125,1
+127,Monetary Policy,124|125|126,1
+128,Fiscal Policy,124|125|126,1
+129,Federal Reserve,127,1
+130,Economic Growth,124|127|128|129,1
+131,Recession,130,1
+132,Globalization,130,1
+133,Geopolitical Risks,118|119|132,6
+134,IRA Accounts,68,10
+135,Employer Retirement Plans,68,10
+136,Individual Retirement Accounts,68|134,10
+137,Social Security,1,1
+138,Retirement Income Strategies,134|135|136|137,10
+139,Required Minimum Distributions,134|135|136,10
+140,Retirement Income Planning,137|138|139,10
+141,Healthcare in Retirement,80|82|140,10
+142,Estate Planning,1,10
+143,Estate Planning Basics,142,10
+144,Marriage & Finances,1,11
+145,Children & Financial Planning,1,11
+146,College Funding,145,11
+147,First Job Financial Decisions,1,1
+148,Financial Independence,3|4,1
+149,Financial Planning Tools,1|7,1
+150,Net Worth,8,1
+151,Financial Ratios,8|9|10|150,1
+152,Financial Health Metrics,151,1
+153,Opportunity Cost,1,1
+154,Liquidity,8|150,1
+155,Solvency,8|150,1
+156,Discretionary Income,9|10|11|12,1
+157,Income Statement,9|11|12,1
+158,Financial Projections,9|10|11|12|157,1
+159,Financial Software,17|149,1
+160,Banking Regulations,18,1
+161,FDIC Insurance,18|19,1
+162,NCUA Insurance,20,1
+163,Wire Transfers,18|27,2
+164,ACH Transfers,18|27,2
+165,Currency Exchange,18,1
+166,Credit Limit,32|39,3
+167,APR,26|39|40,1
+168,APY,26|23|24,1
+169,Debt-to-Income Ratio,40|41|151|156,1
+170,Loan-to-Value Ratio,45|51|151,1
+171,Principal Balance,41|45|46|49|51,1
+172,Amortization,41|45|46|49|51|171,1
+173,Down Payment,45|51,1
+174,Points (Mortgage),51|52,1
+175,Pre-approval,45|51,1
+176,Underwriting,45|46|49|51,1
+177,Tax Withholding,59|60,5
+178,Tax Refund,59|177,5
+179,Tax Forms,59|63|64|65|66|67,5
+180,Life Insurance Needs Analysis,72|94,1
+181,Beneficiary,94|135|136|142,1
+182,Insurance Riders,73|74|87|91|94,1
+183,Actuary,73|77,1
+184,Premium-to-Income Ratio,77|151|156,1
+185,Financial Risk Tolerance,72,1
+186,Investment Risk Tolerance,72|102|185,1
+187,Fixed Income,106,1
+188,Equity,107,1
+189,Capital Gain,107|108|109|110|114|115|116|117,1
+190,Dividend,107|109|111,1
+191,Yield,106|190,1
+192,Total Return,189|190,1
+193,Portfolio Rebalancing,103|186,1
+194,Financial Advisor,1|7|149,1
+195,Fiduciary,194,1
+196,Fee-Only Advisor,194|195,1
+197,Fee-Based Advisor,194|195,1
+198,Robo-Advisor,17|194,1
+199,Financial Planner,194,1
+200,Certified Financial Planner,199,1
