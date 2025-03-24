@@ -12,7 +12,8 @@ nav:
   - Prompts:
     - Introduction: prompts/index.md
     - Bloom Taxonomy: prompts/02-bloom-taxonomy.md
-    - Concept Enumeration: prompts/03-concept-enumeration.md
+    - Concept Enumeration: prompts/04-concept-enumeration.md
+    - Concept Dependency: prompts/06-concept-dependency.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
