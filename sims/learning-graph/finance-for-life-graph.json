@@ -1,0 +1,2650 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "label": "Personal Finance",
+            "group": "found"
+        },
+        {
+            "id": 2,
+            "label": "Financial Literacy",
+            "group": "found"
+        },
+        {
+            "id": 3,
+            "label": "Money Management",
+            "group": "found"
+        },
+        {
+            "id": 4,
+            "label": "Financial Goals",
+            "group": "found"
+        },
+        {
+            "id": 5,
+            "label": "SMART Goals",
+            "group": "found"
+        },
+        {
+            "id": 6,
+            "label": "Financial Philosophy",
+            "group": "found"
+        },
+        {
+            "id": 7,
+            "label": "Financial Planning Process",
+            "group": 12
+        },
+        {
+            "id": 8,
+            "label": "Balance Sheet",
+            "group": "found"
+        },
+        {
+            "id": 9,
+            "label": "Cash Flow Statement",
+            "group": "bank"
+        },
+        {
+            "id": 10,
+            "label": "Budget",
+            "group": "bank"
+        },
+        {
+            "id": 11,
+            "label": "Income Sources",
+            "group": "found"
+        },
+        {
+            "id": 12,
+            "label": "Expense Tracking",
+            "group": "found"
+        },
+        {
+            "id": 13,
+            "label": "Financial Statements",
+            "group": "found"
+        },
+        {
+            "id": 14,
+            "label": "Emergency Fund",
+            "group": "risk"
+        },
+        {
+            "id": 15,
+            "label": "Financial Safety Net",
+            "group": "found"
+        },
+        {
+            "id": 16,
+            "label": "Life Cycle Financial Planning",
+            "group": "life"
+        },
+        {
+            "id": 17,
+            "label": "Fintech",
+            "group": "found"
+        },
+        {
+            "id": 18,
+            "label": "Banking System",
+            "group": "found"
+        },
+        {
+            "id": 19,
+            "label": "Commercial Banks",
+            "group": "bank"
+        },
+        {
+            "id": 20,
+            "label": "Credit Unions",
+            "group": "credit"
+        },
+        {
+            "id": 21,
+            "label": "Online Banks",
+            "group": "bank"
+        },
+        {
+            "id": 22,
+            "label": "Checking Accounts",
+            "group": "bank"
+        },
+        {
+            "id": 23,
+            "label": "Savings Accounts",
+            "group": "bank"
+        },
+        {
+            "id": 24,
+            "label": "Money Market Accounts",
+            "group": "bank"
+        },
+        {
+            "id": 25,
+            "label": "Bank Fees",
+            "group": "bank"
+        },
+        {
+            "id": 26,
+            "label": "Interest Rates",
+            "group": "loans"
+        },
+        {
+            "id": 27,
+            "label": "Electronic Banking",
+            "group": "bank"
+        },
+        {
+            "id": 28,
+            "label": "Mobile Banking",
+            "group": "bank"
+        },
+        {
+            "id": 29,
+            "label": "Cash Management",
+            "group": "bank"
+        },
+        {
+            "id": 30,
+            "label": "Fee Management",
+            "group": "bank"
+        },
+        {
+            "id": 31,
+            "label": "Bank Account Management",
+            "group": "bank"
+        },
+        {
+            "id": 32,
+            "label": "Credit Score",
+            "group": "credit"
+        },
+        {
+            "id": 33,
+            "label": "Credit Bureaus",
+            "group": "credit"
+        },
+        {
+            "id": 34,
+            "label": "Credit Report",
+            "group": "credit"
+        },
+        {
+            "id": 35,
+            "label": "Fraud Prevention",
+            "group": "credit"
+        },
+        {
+            "id": 36,
+            "label": "Identity Theft",
+            "group": "credit"
+        },
+        {
+            "id": 37,
+            "label": "Credit Counseling",
+            "group": "credit"
+        },
+        {
+            "id": 38,
+            "label": "Credit Rehabilitation",
+            "group": "credit"
+        },
+        {
+            "id": 39,
+            "label": "Credit Card",
+            "group": "credit"
+        },
+        {
+            "id": 40,
+            "label": "Revolving Debt",
+            "group": "credit"
+        },
+        {
+            "id": 41,
+            "label": "Installment Debt",
+            "group": "credit"
+        },
+        {
+            "id": 42,
+            "label": "Strategic Borrowing",
+            "group": "credit"
+        },
+        {
+            "id": 43,
+            "label": "Debt Reduction Strategies",
+            "group": "credit"
+        },
+        {
+            "id": 44,
+            "label": "Debt Consolidation",
+            "group": "credit"
+        },
+        {
+            "id": 45,
+            "label": "Auto Loans",
+            "group": "loans"
+        },
+        {
+            "id": 46,
+            "label": "Student Loans",
+            "group": "loans"
+        },
+        {
+            "id": 47,
+            "label": "Federal Student Loans",
+            "group": "loans"
+        },
+        {
+            "id": 48,
+            "label": "Private Student Loans",
+            "group": "loans"
+        },
+        {
+            "id": 49,
+            "label": "Personal Loans",
+            "group": "loans"
+        },
+        {
+            "id": 50,
+            "label": "Payday Loans",
+            "group": "loans"
+        },
+        {
+            "id": 51,
+            "label": "Mortgage Loans",
+            "group": "loans"
+        },
+        {
+            "id": 52,
+            "label": "Mortgage Types",
+            "group": "loans"
+        },
+        {
+            "id": 53,
+            "label": "Refinancing",
+            "group": "loans"
+        },
+        {
+            "id": 54,
+            "label": "Reverse Mortgages",
+            "group": "loans"
+        },
+        {
+            "id": 55,
+            "label": "Buy vs. Rent Analysis",
+            "group": "loans"
+        },
+        {
+            "id": 56,
+            "label": "Small Business Loans",
+            "group": "loans"
+        },
+        {
+            "id": 57,
+            "label": "Microloans",
+            "group": "loans"
+        },
+        {
+            "id": 58,
+            "label": "Progressive Taxation",
+            "group": "tax"
+        },
+        {
+            "id": 59,
+            "label": "Income Tax",
+            "group": "tax"
+        },
+        {
+            "id": 60,
+            "label": "Payroll Tax",
+            "group": "tax"
+        },
+        {
+            "id": 61,
+            "label": "Property Tax",
+            "group": "tax"
+        },
+        {
+            "id": 62,
+            "label": "Sales Tax",
+            "group": "tax"
+        },
+        {
+            "id": 63,
+            "label": "Tax Filing Status",
+            "group": "tax"
+        },
+        {
+            "id": 64,
+            "label": "Dependents (Tax)",
+            "group": "tax"
+        },
+        {
+            "id": 65,
+            "label": "Standard Deduction",
+            "group": "tax"
+        },
+        {
+            "id": 66,
+            "label": "Itemized Deductions",
+            "group": "tax"
+        },
+        {
+            "id": 67,
+            "label": "Tax Credits",
+            "group": "tax"
+        },
+        {
+            "id": 68,
+            "label": "Tax-Advantaged Accounts",
+            "group": "tax"
+        },
+        {
+            "id": 69,
+            "label": "Tax Loss Harvesting",
+            "group": "tax"
+        },
+        {
+            "id": 70,
+            "label": "Charitable Giving (Tax)",
+            "group": "tax"
+        },
+        {
+            "id": 71,
+            "label": "Estate Tax",
+            "group": "tax"
+        },
+        {
+            "id": 72,
+            "label": "Risk Management",
+            "group": "risk"
+        },
+        {
+            "id": 73,
+            "label": "Insurance Terminology",
+            "group": "insurance"
+        },
+        {
+            "id": 74,
+            "label": "Insurance Coverage",
+            "group": "insurance"
+        },
+        {
+            "id": 75,
+            "label": "Policy Exclusions",
+            "group": "insurance"
+        },
+        {
+            "id": 76,
+            "label": "Deductibles",
+            "group": "insurance"
+        },
+        {
+            "id": 77,
+            "label": "Premiums",
+            "group": "insurance"
+        },
+        {
+            "id": 78,
+            "label": "Claims Process",
+            "group": "insurance"
+        },
+        {
+            "id": 79,
+            "label": "Self-Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 80,
+            "label": "Health Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 81,
+            "label": "Health Insurance Plans",
+            "group": "insurance"
+        },
+        {
+            "id": 82,
+            "label": "Medicare",
+            "group": "insurance"
+        },
+        {
+            "id": 83,
+            "label": "Medicaid",
+            "group": "insurance"
+        },
+        {
+            "id": 84,
+            "label": "HSAs",
+            "group": "insurance"
+        },
+        {
+            "id": 85,
+            "label": "FSAs",
+            "group": "insurance"
+        },
+        {
+            "id": 86,
+            "label": "Healthcare Costs",
+            "group": "insurance"
+        },
+        {
+            "id": 87,
+            "label": "Auto Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 88,
+            "label": "Comprehensive Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 89,
+            "label": "Collision Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 90,
+            "label": "Liability Insurance",
+            "group": "risk"
+        },
+        {
+            "id": 91,
+            "label": "Homeowners Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 92,
+            "label": "Renters Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 93,
+            "label": "Umbrella Liability Policies",
+            "group": "risk"
+        },
+        {
+            "id": 94,
+            "label": "Life Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 95,
+            "label": "Term Life Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 96,
+            "label": "Permanent Life Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 97,
+            "label": "Long-Term Care Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 98,
+            "label": "Disability Insurance",
+            "group": "insurance"
+        },
+        {
+            "id": 99,
+            "label": "Compound Interest",
+            "group": "investment"
+        },
+        {
+            "id": 100,
+            "label": "Risk-Return Relationship",
+            "group": 1
+        },
+        {
+            "id": 101,
+            "label": "Time Value of Money",
+            "group": 1
+        },
+        {
+            "id": 102,
+            "label": "Diversification",
+            "group": "risk"
+        },
+        {
+            "id": 103,
+            "label": "Asset Allocation",
+            "group": "investment"
+        },
+        {
+            "id": 104,
+            "label": "Dollar-Cost Averaging",
+            "group": 1
+        },
+        {
+            "id": 105,
+            "label": "Investment Strategies",
+            "group": "investment"
+        },
+        {
+            "id": 106,
+            "label": "Bonds",
+            "group": "invest-prod"
+        },
+        {
+            "id": 107,
+            "label": "Stocks",
+            "group": "invest-prod"
+        },
+        {
+            "id": 108,
+            "label": "ETFs",
+            "group": "invest-prod"
+        },
+        {
+            "id": 109,
+            "label": "Mutual Funds",
+            "group": "invest-prod"
+        },
+        {
+            "id": 110,
+            "label": "Index Funds",
+            "group": "invest-prod"
+        },
+        {
+            "id": 111,
+            "label": "REITs",
+            "group": "retire"
+        },
+        {
+            "id": 112,
+            "label": "Options",
+            "group": "invest-prod"
+        },
+        {
+            "id": 113,
+            "label": "Futures",
+            "group": "invest-prod"
+        },
+        {
+            "id": 114,
+            "label": "Cryptocurrencies",
+            "group": "invest-prod"
+        },
+        {
+            "id": 115,
+            "label": "Private Equity",
+            "group": "invest-prod"
+        },
+        {
+            "id": 116,
+            "label": "Commodities",
+            "group": "invest-prod"
+        },
+        {
+            "id": 117,
+            "label": "Collectibles",
+            "group": "invest-prod"
+        },
+        {
+            "id": 118,
+            "label": "International Markets",
+            "group": "invest-prod"
+        },
+        {
+            "id": 119,
+            "label": "Emerging Markets",
+            "group": "invest-prod"
+        },
+        {
+            "id": 120,
+            "label": "Market Indices",
+            "group": "invest-prod"
+        },
+        {
+            "id": 121,
+            "label": "Market Cycles",
+            "group": "invest-prod"
+        },
+        {
+            "id": 122,
+            "label": "Economic Indicators",
+            "group": "invest-prod"
+        },
+        {
+            "id": 123,
+            "label": "Market Psychology",
+            "group": "invest-prod"
+        },
+        {
+            "id": 124,
+            "label": "Inflation",
+            "group": 1
+        },
+        {
+            "id": 125,
+            "label": "Deflation",
+            "group": 1
+        },
+        {
+            "id": 126,
+            "label": "Purchasing Power",
+            "group": 1
+        },
+        {
+            "id": 127,
+            "label": "Monetary Policy",
+            "group": 1
+        },
+        {
+            "id": 128,
+            "label": "Fiscal Policy",
+            "group": 1
+        },
+        {
+            "id": 129,
+            "label": "Federal Reserve",
+            "group": 1
+        },
+        {
+            "id": 130,
+            "label": "Economic Growth",
+            "group": 1
+        },
+        {
+            "id": 131,
+            "label": "Recession",
+            "group": 1
+        },
+        {
+            "id": 132,
+            "label": "Globalization",
+            "group": 1
+        },
+        {
+            "id": 133,
+            "label": "Geopolitical Risks",
+            "group": "risk"
+        },
+        {
+            "id": 134,
+            "label": "IRA Accounts",
+            "group": "retire"
+        },
+        {
+            "id": 135,
+            "label": "Employer Retirement Plans",
+            "group": "retire"
+        },
+        {
+            "id": 136,
+            "label": "Individual Retirement Accounts",
+            "group": "retire"
+        },
+        {
+            "id": 137,
+            "label": "Social Security",
+            "group": 1
+        },
+        {
+            "id": 138,
+            "label": "Retirement Income Strategies",
+            "group": "retire"
+        },
+        {
+            "id": 139,
+            "label": "Required Minimum Distributions",
+            "group": "retire"
+        },
+        {
+            "id": 140,
+            "label": "Retirement Income Planning",
+            "group": "retire"
+        },
+        {
+            "id": 141,
+            "label": "Healthcare in Retirement",
+            "group": "retire"
+        },
+        {
+            "id": 142,
+            "label": "Estate Planning",
+            "group": "retire"
+        },
+        {
+            "id": 143,
+            "label": "Estate Planning Basics",
+            "group": "retire"
+        },
+        {
+            "id": 144,
+            "label": "Marriage & Finances",
+            "group": "life"
+        },
+        {
+            "id": 145,
+            "label": "Children & Financial Planning",
+            "group": "life"
+        },
+        {
+            "id": 146,
+            "label": "College Funding",
+            "group": "life"
+        },
+        {
+            "id": 147,
+            "label": "First Job Financial Decisions",
+            "group": 1
+        },
+        {
+            "id": 148,
+            "label": "Financial Independence",
+            "group": 1
+        },
+        {
+            "id": 149,
+            "label": "Financial Planning Tools",
+            "group": 1
+        },
+        {
+            "id": 150,
+            "label": "Net Worth",
+            "group": 1
+        },
+        {
+            "id": 151,
+            "label": "Financial Ratios",
+            "group": 1
+        },
+        {
+            "id": 152,
+            "label": "Financial Health Metrics",
+            "group": 1
+        },
+        {
+            "id": 153,
+            "label": "Opportunity Cost",
+            "group": 1
+        },
+        {
+            "id": 154,
+            "label": "Liquidity",
+            "group": 1
+        },
+        {
+            "id": 155,
+            "label": "Solvency",
+            "group": 1
+        },
+        {
+            "id": 156,
+            "label": "Discretionary Income",
+            "group": 1
+        },
+        {
+            "id": 157,
+            "label": "Income Statement",
+            "group": 1
+        },
+        {
+            "id": 158,
+            "label": "Financial Projections",
+            "group": 1
+        },
+        {
+            "id": 159,
+            "label": "Financial Software",
+            "group": 1
+        },
+        {
+            "id": 160,
+            "label": "Banking Regulations",
+            "group": 1
+        },
+        {
+            "id": 161,
+            "label": "FDIC Insurance",
+            "group": 1
+        },
+        {
+            "id": 162,
+            "label": "NCUA Insurance",
+            "group": 1
+        },
+        {
+            "id": 163,
+            "label": "Wire Transfers",
+            "group": "bank"
+        },
+        {
+            "id": 164,
+            "label": "ACH Transfers",
+            "group": "bank"
+        },
+        {
+            "id": 165,
+            "label": "Currency Exchange",
+            "group": 1
+        },
+        {
+            "id": 166,
+            "label": "Credit Limit",
+            "group": "credit"
+        },
+        {
+            "id": 167,
+            "label": "APR",
+            "group": 1
+        },
+        {
+            "id": 168,
+            "label": "APY",
+            "group": 1
+        },
+        {
+            "id": 169,
+            "label": "Debt-to-Income Ratio",
+            "group": 1
+        },
+        {
+            "id": 170,
+            "label": "Loan-to-Value Ratio",
+            "group": 1
+        },
+        {
+            "id": 171,
+            "label": "Principal Balance",
+            "group": 1
+        },
+        {
+            "id": 172,
+            "label": "Amortization",
+            "group": 1
+        },
+        {
+            "id": 173,
+            "label": "Down Payment",
+            "group": 1
+        },
+        {
+            "id": 174,
+            "label": "Points (Mortgage)",
+            "group": 1
+        },
+        {
+            "id": 175,
+            "label": "Pre-approval",
+            "group": 1
+        },
+        {
+            "id": 176,
+            "label": "Underwriting",
+            "group": 1
+        },
+        {
+            "id": 177,
+            "label": "Tax Withholding",
+            "group": "tax"
+        },
+        {
+            "id": 178,
+            "label": "Tax Refund",
+            "group": "tax"
+        },
+        {
+            "id": 179,
+            "label": "Tax Forms",
+            "group": "tax"
+        },
+        {
+            "id": 180,
+            "label": "Life Insurance Needs Analysis",
+            "group": 1
+        },
+        {
+            "id": 181,
+            "label": "Beneficiary",
+            "group": 1
+        },
+        {
+            "id": 182,
+            "label": "Insurance Riders",
+            "group": 1
+        },
+        {
+            "id": 183,
+            "label": "Actuary",
+            "group": 1
+        },
+        {
+            "id": 184,
+            "label": "Premium-to-Income Ratio",
+            "group": 1
+        },
+        {
+            "id": 185,
+            "label": "Financial Risk Tolerance",
+            "group": 1
+        },
+        {
+            "id": 186,
+            "label": "Investment Risk Tolerance",
+            "group": 1
+        },
+        {
+            "id": 187,
+            "label": "Fixed Income",
+            "group": 1
+        },
+        {
+            "id": 188,
+            "label": "Equity",
+            "group": 1
+        },
+        {
+            "id": 189,
+            "label": "Capital Gain",
+            "group": 1
+        },
+        {
+            "id": 190,
+            "label": "Dividend",
+            "group": 1
+        },
+        {
+            "id": 191,
+            "label": "Yield",
+            "group": 1
+        },
+        {
+            "id": 192,
+            "label": "Total Return",
+            "group": 1
+        },
+        {
+            "id": 193,
+            "label": "Portfolio Rebalancing",
+            "group": 1
+        },
+        {
+            "id": 194,
+            "label": "Financial Advisor",
+            "group": 1
+        },
+        {
+            "id": 195,
+            "label": "Fiduciary",
+            "group": 1
+        },
+        {
+            "id": 196,
+            "label": "Fee-Only Advisor",
+            "group": 1
+        },
+        {
+            "id": 197,
+            "label": "Fee-Based Advisor",
+            "group": 1
+        },
+        {
+            "id": 198,
+            "label": "Robo-Advisor",
+            "group": "goal"
+        },
+        {
+            "id": 199,
+            "label": "Financial Planner",
+            "group": "goal"
+        },
+        {
+            "id": 200,
+            "label": "Certified Financial Planner",
+            "group": "goal"
+        }
+    ],
+    "edges": [
+        {
+            "from": 3,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 4
+        },
+        {
+            "from": 6,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 2
+        },
+        {
+            "from": 7,
+            "to": 1
+        },
+        {
+            "from": 7,
+            "to": 3
+        },
+        {
+            "from": 7,
+            "to": 4
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 8,
+            "to": 3
+        },
+        {
+            "from": 9,
+            "to": 1
+        },
+        {
+            "from": 9,
+            "to": 3
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 3
+        },
+        {
+            "from": 10,
+            "to": 9
+        },
+        {
+            "from": 11,
+            "to": 3
+        },
+        {
+            "from": 11,
+            "to": 9
+        },
+        {
+            "from": 12,
+            "to": 3
+        },
+        {
+            "from": 12,
+            "to": 9
+        },
+        {
+            "from": 12,
+            "to": 10
+        },
+        {
+            "from": 13,
+            "to": 8
+        },
+        {
+            "from": 13,
+            "to": 9
+        },
+        {
+            "from": 14,
+            "to": 3
+        },
+        {
+            "from": 14,
+            "to": 8
+        },
+        {
+            "from": 14,
+            "to": 9
+        },
+        {
+            "from": 15,
+            "to": 3
+        },
+        {
+            "from": 15,
+            "to": 14
+        },
+        {
+            "from": 16,
+            "to": 1
+        },
+        {
+            "from": 16,
+            "to": 3
+        },
+        {
+            "from": 16,
+            "to": 4
+        },
+        {
+            "from": 16,
+            "to": 6
+        },
+        {
+            "from": 17,
+            "to": 1
+        },
+        {
+            "from": 18,
+            "to": 1
+        },
+        {
+            "from": 19,
+            "to": 18
+        },
+        {
+            "from": 20,
+            "to": 18
+        },
+        {
+            "from": 21,
+            "to": 18
+        },
+        {
+            "from": 21,
+            "to": 17
+        },
+        {
+            "from": 22,
+            "to": 18
+        },
+        {
+            "from": 22,
+            "to": 19
+        },
+        {
+            "from": 22,
+            "to": 20
+        },
+        {
+            "from": 22,
+            "to": 21
+        },
+        {
+            "from": 23,
+            "to": 18
+        },
+        {
+            "from": 23,
+            "to": 19
+        },
+        {
+            "from": 23,
+            "to": 20
+        },
+        {
+            "from": 23,
+            "to": 21
+        },
+        {
+            "from": 24,
+            "to": 18
+        },
+        {
+            "from": 24,
+            "to": 19
+        },
+        {
+            "from": 24,
+            "to": 20
+        },
+        {
+            "from": 24,
+            "to": 21
+        },
+        {
+            "from": 25,
+            "to": 18
+        },
+        {
+            "from": 25,
+            "to": 19
+        },
+        {
+            "from": 25,
+            "to": 20
+        },
+        {
+            "from": 25,
+            "to": 21
+        },
+        {
+            "from": 25,
+            "to": 22
+        },
+        {
+            "from": 25,
+            "to": 23
+        },
+        {
+            "from": 25,
+            "to": 24
+        },
+        {
+            "from": 26,
+            "to": 1
+        },
+        {
+            "from": 27,
+            "to": 17
+        },
+        {
+            "from": 27,
+            "to": 18
+        },
+        {
+            "from": 27,
+            "to": 19
+        },
+        {
+            "from": 27,
+            "to": 20
+        },
+        {
+            "from": 27,
+            "to": 21
+        },
+        {
+            "from": 28,
+            "to": 17
+        },
+        {
+            "from": 28,
+            "to": 27
+        },
+        {
+            "from": 29,
+            "to": 3
+        },
+        {
+            "from": 29,
+            "to": 9
+        },
+        {
+            "from": 29,
+            "to": 10
+        },
+        {
+            "from": 30,
+            "to": 25
+        },
+        {
+            "from": 30,
+            "to": 29
+        },
+        {
+            "from": 31,
+            "to": 22
+        },
+        {
+            "from": 31,
+            "to": 23
+        },
+        {
+            "from": 31,
+            "to": 24
+        },
+        {
+            "from": 31,
+            "to": 25
+        },
+        {
+            "from": 31,
+            "to": 27
+        },
+        {
+            "from": 31,
+            "to": 28
+        },
+        {
+            "from": 31,
+            "to": 30
+        },
+        {
+            "from": 32,
+            "to": 1
+        },
+        {
+            "from": 33,
+            "to": 32
+        },
+        {
+            "from": 34,
+            "to": 32
+        },
+        {
+            "from": 34,
+            "to": 33
+        },
+        {
+            "from": 35,
+            "to": 1
+        },
+        {
+            "from": 35,
+            "to": 33
+        },
+        {
+            "from": 35,
+            "to": 34
+        },
+        {
+            "from": 36,
+            "to": 35
+        },
+        {
+            "from": 37,
+            "to": 32
+        },
+        {
+            "from": 37,
+            "to": 34
+        },
+        {
+            "from": 38,
+            "to": 32
+        },
+        {
+            "from": 38,
+            "to": 34
+        },
+        {
+            "from": 38,
+            "to": 37
+        },
+        {
+            "from": 39,
+            "to": 32
+        },
+        {
+            "from": 40,
+            "to": 39
+        },
+        {
+            "from": 41,
+            "to": 1
+        },
+        {
+            "from": 42,
+            "to": 32
+        },
+        {
+            "from": 42,
+            "to": 40
+        },
+        {
+            "from": 42,
+            "to": 41
+        },
+        {
+            "from": 43,
+            "to": 40
+        },
+        {
+            "from": 43,
+            "to": 41
+        },
+        {
+            "from": 44,
+            "to": 41
+        },
+        {
+            "from": 44,
+            "to": 43
+        },
+        {
+            "from": 45,
+            "to": 26
+        },
+        {
+            "from": 45,
+            "to": 32
+        },
+        {
+            "from": 45,
+            "to": 41
+        },
+        {
+            "from": 46,
+            "to": 26
+        },
+        {
+            "from": 46,
+            "to": 32
+        },
+        {
+            "from": 46,
+            "to": 41
+        },
+        {
+            "from": 47,
+            "to": 46
+        },
+        {
+            "from": 48,
+            "to": 46
+        },
+        {
+            "from": 49,
+            "to": 26
+        },
+        {
+            "from": 49,
+            "to": 32
+        },
+        {
+            "from": 49,
+            "to": 41
+        },
+        {
+            "from": 50,
+            "to": 26
+        },
+        {
+            "from": 50,
+            "to": 32
+        },
+        {
+            "from": 50,
+            "to": 41
+        },
+        {
+            "from": 51,
+            "to": 26
+        },
+        {
+            "from": 51,
+            "to": 32
+        },
+        {
+            "from": 51,
+            "to": 41
+        },
+        {
+            "from": 52,
+            "to": 51
+        },
+        {
+            "from": 53,
+            "to": 51
+        },
+        {
+            "from": 53,
+            "to": 52
+        },
+        {
+            "from": 54,
+            "to": 51
+        },
+        {
+            "from": 54,
+            "to": 52
+        },
+        {
+            "from": 55,
+            "to": 51
+        },
+        {
+            "from": 55,
+            "to": 52
+        },
+        {
+            "from": 56,
+            "to": 26
+        },
+        {
+            "from": 56,
+            "to": 32
+        },
+        {
+            "from": 56,
+            "to": 41
+        },
+        {
+            "from": 57,
+            "to": 26
+        },
+        {
+            "from": 57,
+            "to": 32
+        },
+        {
+            "from": 57,
+            "to": 41
+        },
+        {
+            "from": 58,
+            "to": 1
+        },
+        {
+            "from": 59,
+            "to": 58
+        },
+        {
+            "from": 60,
+            "to": 58
+        },
+        {
+            "from": 61,
+            "to": 58
+        },
+        {
+            "from": 62,
+            "to": 58
+        },
+        {
+            "from": 63,
+            "to": 59
+        },
+        {
+            "from": 64,
+            "to": 59
+        },
+        {
+            "from": 64,
+            "to": 63
+        },
+        {
+            "from": 65,
+            "to": 59
+        },
+        {
+            "from": 66,
+            "to": 59
+        },
+        {
+            "from": 66,
+            "to": 65
+        },
+        {
+            "from": 67,
+            "to": 59
+        },
+        {
+            "from": 68,
+            "to": 59
+        },
+        {
+            "from": 69,
+            "to": 59
+        },
+        {
+            "from": 69,
+            "to": 68
+        },
+        {
+            "from": 70,
+            "to": 59
+        },
+        {
+            "from": 70,
+            "to": 66
+        },
+        {
+            "from": 71,
+            "to": 58
+        },
+        {
+            "from": 72,
+            "to": 1
+        },
+        {
+            "from": 73,
+            "to": 72
+        },
+        {
+            "from": 74,
+            "to": 72
+        },
+        {
+            "from": 74,
+            "to": 73
+        },
+        {
+            "from": 75,
+            "to": 73
+        },
+        {
+            "from": 75,
+            "to": 74
+        },
+        {
+            "from": 76,
+            "to": 73
+        },
+        {
+            "from": 76,
+            "to": 74
+        },
+        {
+            "from": 77,
+            "to": 73
+        },
+        {
+            "from": 77,
+            "to": 74
+        },
+        {
+            "from": 78,
+            "to": 73
+        },
+        {
+            "from": 78,
+            "to": 74
+        },
+        {
+            "from": 79,
+            "to": 72
+        },
+        {
+            "from": 79,
+            "to": 73
+        },
+        {
+            "from": 80,
+            "to": 72
+        },
+        {
+            "from": 80,
+            "to": 73
+        },
+        {
+            "from": 81,
+            "to": 80
+        },
+        {
+            "from": 82,
+            "to": 80
+        },
+        {
+            "from": 83,
+            "to": 80
+        },
+        {
+            "from": 84,
+            "to": 68
+        },
+        {
+            "from": 84,
+            "to": 80
+        },
+        {
+            "from": 85,
+            "to": 68
+        },
+        {
+            "from": 85,
+            "to": 80
+        },
+        {
+            "from": 86,
+            "to": 80
+        },
+        {
+            "from": 86,
+            "to": 81
+        },
+        {
+            "from": 86,
+            "to": 82
+        },
+        {
+            "from": 86,
+            "to": 83
+        },
+        {
+            "from": 86,
+            "to": 84
+        },
+        {
+            "from": 86,
+            "to": 85
+        },
+        {
+            "from": 87,
+            "to": 72
+        },
+        {
+            "from": 87,
+            "to": 73
+        },
+        {
+            "from": 88,
+            "to": 87
+        },
+        {
+            "from": 89,
+            "to": 87
+        },
+        {
+            "from": 90,
+            "to": 72
+        },
+        {
+            "from": 90,
+            "to": 73
+        },
+        {
+            "from": 91,
+            "to": 72
+        },
+        {
+            "from": 91,
+            "to": 73
+        },
+        {
+            "from": 92,
+            "to": 72
+        },
+        {
+            "from": 92,
+            "to": 73
+        },
+        {
+            "from": 93,
+            "to": 90
+        },
+        {
+            "from": 94,
+            "to": 72
+        },
+        {
+            "from": 94,
+            "to": 73
+        },
+        {
+            "from": 95,
+            "to": 94
+        },
+        {
+            "from": 96,
+            "to": 94
+        },
+        {
+            "from": 97,
+            "to": 72
+        },
+        {
+            "from": 97,
+            "to": 73
+        },
+        {
+            "from": 98,
+            "to": 72
+        },
+        {
+            "from": 98,
+            "to": 73
+        },
+        {
+            "from": 99,
+            "to": 26
+        },
+        {
+            "from": 100,
+            "to": 1
+        },
+        {
+            "from": 101,
+            "to": 26
+        },
+        {
+            "from": 101,
+            "to": 99
+        },
+        {
+            "from": 102,
+            "to": 72
+        },
+        {
+            "from": 103,
+            "to": 102
+        },
+        {
+            "from": 104,
+            "to": 1
+        },
+        {
+            "from": 105,
+            "to": 100
+        },
+        {
+            "from": 105,
+            "to": 101
+        },
+        {
+            "from": 105,
+            "to": 102
+        },
+        {
+            "from": 105,
+            "to": 103
+        },
+        {
+            "from": 105,
+            "to": 104
+        },
+        {
+            "from": 106,
+            "to": 1
+        },
+        {
+            "from": 107,
+            "to": 1
+        },
+        {
+            "from": 108,
+            "to": 106
+        },
+        {
+            "from": 108,
+            "to": 107
+        },
+        {
+            "from": 109,
+            "to": 106
+        },
+        {
+            "from": 109,
+            "to": 107
+        },
+        {
+            "from": 110,
+            "to": 108
+        },
+        {
+            "from": 110,
+            "to": 109
+        },
+        {
+            "from": 111,
+            "to": 1
+        },
+        {
+            "from": 112,
+            "to": 107
+        },
+        {
+            "from": 113,
+            "to": 107
+        },
+        {
+            "from": 114,
+            "to": 1
+        },
+        {
+            "from": 115,
+            "to": 1
+        },
+        {
+            "from": 116,
+            "to": 1
+        },
+        {
+            "from": 117,
+            "to": 1
+        },
+        {
+            "from": 118,
+            "to": 107
+        },
+        {
+            "from": 119,
+            "to": 107
+        },
+        {
+            "from": 119,
+            "to": 118
+        },
+        {
+            "from": 120,
+            "to": 107
+        },
+        {
+            "from": 121,
+            "to": 107
+        },
+        {
+            "from": 121,
+            "to": 120
+        },
+        {
+            "from": 122,
+            "to": 1
+        },
+        {
+            "from": 123,
+            "to": 107
+        },
+        {
+            "from": 123,
+            "to": 121
+        },
+        {
+            "from": 124,
+            "to": 1
+        },
+        {
+            "from": 125,
+            "to": 124
+        },
+        {
+            "from": 126,
+            "to": 124
+        },
+        {
+            "from": 126,
+            "to": 125
+        },
+        {
+            "from": 127,
+            "to": 124
+        },
+        {
+            "from": 127,
+            "to": 125
+        },
+        {
+            "from": 127,
+            "to": 126
+        },
+        {
+            "from": 128,
+            "to": 124
+        },
+        {
+            "from": 128,
+            "to": 125
+        },
+        {
+            "from": 128,
+            "to": 126
+        },
+        {
+            "from": 129,
+            "to": 127
+        },
+        {
+            "from": 130,
+            "to": 124
+        },
+        {
+            "from": 130,
+            "to": 127
+        },
+        {
+            "from": 130,
+            "to": 128
+        },
+        {
+            "from": 130,
+            "to": 129
+        },
+        {
+            "from": 131,
+            "to": 130
+        },
+        {
+            "from": 132,
+            "to": 130
+        },
+        {
+            "from": 133,
+            "to": 118
+        },
+        {
+            "from": 133,
+            "to": 119
+        },
+        {
+            "from": 133,
+            "to": 132
+        },
+        {
+            "from": 134,
+            "to": 68
+        },
+        {
+            "from": 135,
+            "to": 68
+        },
+        {
+            "from": 136,
+            "to": 68
+        },
+        {
+            "from": 136,
+            "to": 134
+        },
+        {
+            "from": 137,
+            "to": 1
+        },
+        {
+            "from": 138,
+            "to": 134
+        },
+        {
+            "from": 138,
+            "to": 135
+        },
+        {
+            "from": 138,
+            "to": 136
+        },
+        {
+            "from": 138,
+            "to": 137
+        },
+        {
+            "from": 139,
+            "to": 134
+        },
+        {
+            "from": 139,
+            "to": 135
+        },
+        {
+            "from": 139,
+            "to": 136
+        },
+        {
+            "from": 140,
+            "to": 137
+        },
+        {
+            "from": 140,
+            "to": 138
+        },
+        {
+            "from": 140,
+            "to": 139
+        },
+        {
+            "from": 141,
+            "to": 80
+        },
+        {
+            "from": 141,
+            "to": 82
+        },
+        {
+            "from": 141,
+            "to": 140
+        },
+        {
+            "from": 142,
+            "to": 1
+        },
+        {
+            "from": 143,
+            "to": 142
+        },
+        {
+            "from": 144,
+            "to": 1
+        },
+        {
+            "from": 145,
+            "to": 1
+        },
+        {
+            "from": 146,
+            "to": 145
+        },
+        {
+            "from": 147,
+            "to": 1
+        },
+        {
+            "from": 148,
+            "to": 3
+        },
+        {
+            "from": 148,
+            "to": 4
+        },
+        {
+            "from": 149,
+            "to": 1
+        },
+        {
+            "from": 149,
+            "to": 7
+        },
+        {
+            "from": 150,
+            "to": 8
+        },
+        {
+            "from": 151,
+            "to": 8
+        },
+        {
+            "from": 151,
+            "to": 9
+        },
+        {
+            "from": 151,
+            "to": 10
+        },
+        {
+            "from": 151,
+            "to": 150
+        },
+        {
+            "from": 152,
+            "to": 151
+        },
+        {
+            "from": 153,
+            "to": 1
+        },
+        {
+            "from": 154,
+            "to": 8
+        },
+        {
+            "from": 154,
+            "to": 150
+        },
+        {
+            "from": 155,
+            "to": 8
+        },
+        {
+            "from": 155,
+            "to": 150
+        },
+        {
+            "from": 156,
+            "to": 9
+        },
+        {
+            "from": 156,
+            "to": 10
+        },
+        {
+            "from": 156,
+            "to": 11
+        },
+        {
+            "from": 156,
+            "to": 12
+        },
+        {
+            "from": 157,
+            "to": 9
+        },
+        {
+            "from": 157,
+            "to": 11
+        },
+        {
+            "from": 157,
+            "to": 12
+        },
+        {
+            "from": 158,
+            "to": 9
+        },
+        {
+            "from": 158,
+            "to": 10
+        },
+        {
+            "from": 158,
+            "to": 11
+        },
+        {
+            "from": 158,
+            "to": 12
+        },
+        {
+            "from": 158,
+            "to": 157
+        },
+        {
+            "from": 159,
+            "to": 17
+        },
+        {
+            "from": 159,
+            "to": 149
+        },
+        {
+            "from": 160,
+            "to": 18
+        },
+        {
+            "from": 161,
+            "to": 18
+        },
+        {
+            "from": 161,
+            "to": 19
+        },
+        {
+            "from": 162,
+            "to": 20
+        },
+        {
+            "from": 163,
+            "to": 18
+        },
+        {
+            "from": 163,
+            "to": 27
+        },
+        {
+            "from": 164,
+            "to": 18
+        },
+        {
+            "from": 164,
+            "to": 27
+        },
+        {
+            "from": 165,
+            "to": 18
+        },
+        {
+            "from": 166,
+            "to": 32
+        },
+        {
+            "from": 166,
+            "to": 39
+        },
+        {
+            "from": 167,
+            "to": 26
+        },
+        {
+            "from": 167,
+            "to": 39
+        },
+        {
+            "from": 167,
+            "to": 40
+        },
+        {
+            "from": 168,
+            "to": 26
+        },
+        {
+            "from": 168,
+            "to": 23
+        },
+        {
+            "from": 168,
+            "to": 24
+        },
+        {
+            "from": 169,
+            "to": 40
+        },
+        {
+            "from": 169,
+            "to": 41
+        },
+        {
+            "from": 169,
+            "to": 151
+        },
+        {
+            "from": 169,
+            "to": 156
+        },
+        {
+            "from": 170,
+            "to": 45
+        },
+        {
+            "from": 170,
+            "to": 51
+        },
+        {
+            "from": 170,
+            "to": 151
+        },
+        {
+            "from": 171,
+            "to": 41
+        },
+        {
+            "from": 171,
+            "to": 45
+        },
+        {
+            "from": 171,
+            "to": 46
+        },
+        {
+            "from": 171,
+            "to": 49
+        },
+        {
+            "from": 171,
+            "to": 51
+        },
+        {
+            "from": 172,
+            "to": 41
+        },
+        {
+            "from": 172,
+            "to": 45
+        },
+        {
+            "from": 172,
+            "to": 46
+        },
+        {
+            "from": 172,
+            "to": 49
+        },
+        {
+            "from": 172,
+            "to": 51
+        },
+        {
+            "from": 172,
+            "to": 171
+        },
+        {
+            "from": 173,
+            "to": 45
+        },
+        {
+            "from": 173,
+            "to": 51
+        },
+        {
+            "from": 174,
+            "to": 51
+        },
+        {
+            "from": 174,
+            "to": 52
+        },
+        {
+            "from": 175,
+            "to": 45
+        },
+        {
+            "from": 175,
+            "to": 51
+        },
+        {
+            "from": 176,
+            "to": 45
+        },
+        {
+            "from": 176,
+            "to": 46
+        },
+        {
+            "from": 176,
+            "to": 49
+        },
+        {
+            "from": 176,
+            "to": 51
+        },
+        {
+            "from": 177,
+            "to": 59
+        },
+        {
+            "from": 177,
+            "to": 60
+        },
+        {
+            "from": 178,
+            "to": 59
+        },
+        {
+            "from": 178,
+            "to": 177
+        },
+        {
+            "from": 179,
+            "to": 59
+        },
+        {
+            "from": 179,
+            "to": 63
+        },
+        {
+            "from": 179,
+            "to": 64
+        },
+        {
+            "from": 179,
+            "to": 65
+        },
+        {
+            "from": 179,
+            "to": 66
+        },
+        {
+            "from": 179,
+            "to": 67
+        },
+        {
+            "from": 180,
+            "to": 72
+        },
+        {
+            "from": 180,
+            "to": 94
+        },
+        {
+            "from": 181,
+            "to": 94
+        },
+        {
+            "from": 181,
+            "to": 135
+        },
+        {
+            "from": 181,
+            "to": 136
+        },
+        {
+            "from": 181,
+            "to": 142
+        },
+        {
+            "from": 182,
+            "to": 73
+        },
+        {
+            "from": 182,
+            "to": 74
+        },
+        {
+            "from": 182,
+            "to": 87
+        },
+        {
+            "from": 182,
+            "to": 91
+        },
+        {
+            "from": 182,
+            "to": 94
+        },
+        {
+            "from": 183,
+            "to": 73
+        },
+        {
+            "from": 183,
+            "to": 77
+        },
+        {
+            "from": 184,
+            "to": 77
+        },
+        {
+            "from": 184,
+            "to": 151
+        },
+        {
+            "from": 184,
+            "to": 156
+        },
+        {
+            "from": 185,
+            "to": 72
+        },
+        {
+            "from": 186,
+            "to": 72
+        },
+        {
+            "from": 186,
+            "to": 102
+        },
+        {
+            "from": 186,
+            "to": 185
+        },
+        {
+            "from": 187,
+            "to": 106
+        },
+        {
+            "from": 188,
+            "to": 107
+        },
+        {
+            "from": 189,
+            "to": 107
+        },
+        {
+            "from": 189,
+            "to": 108
+        },
+        {
+            "from": 189,
+            "to": 109
+        },
+        {
+            "from": 189,
+            "to": 110
+        },
+        {
+            "from": 189,
+            "to": 114
+        },
+        {
+            "from": 189,
+            "to": 115
+        },
+        {
+            "from": 189,
+            "to": 116
+        },
+        {
+            "from": 189,
+            "to": 117
+        },
+        {
+            "from": 190,
+            "to": 107
+        },
+        {
+            "from": 190,
+            "to": 109
+        },
+        {
+            "from": 190,
+            "to": 111
+        },
+        {
+            "from": 191,
+            "to": 106
+        },
+        {
+            "from": 191,
+            "to": 190
+        },
+        {
+            "from": 192,
+            "to": 189
+        },
+        {
+            "from": 192,
+            "to": 190
+        },
+        {
+            "from": 193,
+            "to": 103
+        },
+        {
+            "from": 193,
+            "to": 186
+        },
+        {
+            "from": 194,
+            "to": 1
+        },
+        {
+            "from": 194,
+            "to": 7
+        },
+        {
+            "from": 194,
+            "to": 149
+        },
+        {
+            "from": 195,
+            "to": 194
+        },
+        {
+            "from": 196,
+            "to": 194
+        },
+        {
+            "from": 196,
+            "to": 195
+        },
+        {
+            "from": 197,
+            "to": 194
+        },
+        {
+            "from": 197,
+            "to": 195
+        },
+        {
+            "from": 198,
+            "to": 17
+        },
+        {
+            "from": 198,
+            "to": 194
+        },
+        {
+            "from": 199,
+            "to": 194
+        },
+        {
+            "from": 200,
+            "to": 199
+        }
+    ]
+}
