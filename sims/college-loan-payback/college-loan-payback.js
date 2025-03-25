@@ -140,9 +140,8 @@ function calculateLoan() {
       // where P = principal, r = monthly rate, M = monthly payment
       monthsToPay = Math.ceil(Math.log(1 - (totalLoan * monthlyRate / monthlyPayment)) / Math.log(1 + monthlyRate) * -1);
       
-      // Calculate total interest
-      let totalPayment = monthlyPayment * monthsToPay;
-      totalInterest = totalPayment - totalLoan;
+      // Calculate total interest using amortization
+      totalInterest = calculateTotalInterest(totalLoan, monthlyRate, monthlyPayment, monthsToPay);
     }
   }
   
@@ -150,6 +149,38 @@ function calculateLoan() {
   let remainingMonths = monthsToPay % 12;
   
   calculationPerformed = true;
+}
+
+function calculateTotalInterest(principal, monthlyRate, payment, months) {
+  // Use proper amortization to calculate total interest
+  let balance = principal;
+  let totalInterest = 0;
+  
+  // Handle the case where months is Infinity
+  if (!isFinite(months)) {
+    return Infinity;
+  }
+  
+  for (let i = 0; i < months; i++) {
+    // Calculate interest for this month
+    let interestThisMonth = balance * monthlyRate;
+    totalInterest += interestThisMonth;
+    
+    // Apply payment
+    let principalPayment = payment - interestThisMonth;
+    
+    // Ensure we don't overpay on the last payment
+    if (principalPayment > balance) {
+      // Last payment - only pay what's needed
+      totalInterest -= (principalPayment - balance) * monthlyRate;
+      balance = 0;
+      break;
+    } else {
+      balance -= principalPayment;
+    }
+  }
+  
+  return totalInterest;
 }
 
 function drawCalculationResults() {
