@@ -21,6 +21,7 @@ nav:
   - MicroSims:
     - Introduction: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
+    - Student Loan Payback: sims/college-loan-payback/index.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
