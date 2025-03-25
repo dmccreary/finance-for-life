@@ -43,11 +43,11 @@ function setup() {
   costSlider.position(sliderLeftMargin, drawHeight + 50);
   costSlider.size(containerWidth - sliderLeftMargin - margin);
   
-  interestSlider = createSlider(2, 12, 5.5, 0.1);
+  interestSlider = createSlider(2, 12, 6.5, 0.1);
   interestSlider.position(sliderLeftMargin, drawHeight + 80);
   interestSlider.size(containerWidth - sliderLeftMargin - margin);
   
-  paymentSlider = createSlider(100, 3000, 1000, 50);
+  paymentSlider = createSlider(100, 3000, 1100, 50);
   paymentSlider.position(sliderLeftMargin, drawHeight + 110);
   paymentSlider.size(containerWidth - sliderLeftMargin - margin);
   
