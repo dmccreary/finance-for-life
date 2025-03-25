@@ -35,6 +35,7 @@ nav:
     - Concept Classification: prompts/10-concept-classification.md
     - Glossary: prompts/12-glossary-prompt.md
     - List of MicroSims: prompts/14-list-of-microsims.md
+    - US High School Topics: prompts/03-us-high-school-topics.md
   - MicroSims:
     - Introduction: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
