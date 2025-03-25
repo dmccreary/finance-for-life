@@ -51,8 +51,8 @@ nav:
 
 theme:
   name: material
-  # logo: img/logo.png
-  # favicon: img/my-icon.png
+  logo: img/logo.png
+  favicon: img/favicon.ico
   palette:
     primary: 'blue'
     accent: 'orange'
