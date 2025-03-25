@@ -9,6 +9,23 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - Course Description: course-description.md
+  - Chapters:
+    - Introduction: chapters/index.md
+    - chapters/01-foundational-financial-concepts.md
+    - chapters/smart-money-for-young-people.md
+    - chapters/01-foundational-financial-concepts/index.md
+    - chapters/02-banking-and-cash-management/index.md
+    - chapters/03-budgeting-and-financial-planning/index.md
+    - chapters/04-credit-and-debt-management/index.md
+    - chapters/05-saving-and-investing/index.md
+    - chapters/06-income-and-taxes/index.md
+    - chapters/07-insurance-and-risk-management/index.md
+    - chapters/08-major-purchases-and-loans/index.md
+    - chapters/09-consumer-protection-and-financial-security/index.md
+    - chapters/10-college-and-education-planning/index.md
+    - chapters/11-career-planning-and-income/index.md
+    - chapters/12-retirement-and-long-term-planning/index.md
+    - chapters/mn-legislation.md
   - Prompts:
     - Introduction: prompts/index.md
     - Bloom Taxonomy: prompts/02-bloom-taxonomy.md
