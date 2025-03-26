@@ -23,6 +23,10 @@ nav:
     - chapters/10-college-and-education-planning/index.md
     - chapters/11-career-planning-and-income/index.md
     - chapters/12-retirement-and-long-term-planning/index.md
+  - Stories:
+    - Introduction: stories/index.md
+    - Passive Investing: stories/passive-investing.md
+    - Selection Bias: stories/selection-bias.md
   - Prompts:
     - Introduction: prompts/index.md
     - Bloom Taxonomy: prompts/02-bloom-taxonomy.md
