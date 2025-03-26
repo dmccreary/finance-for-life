@@ -22,7 +22,7 @@
 
 ## Result from Claude Sonnet 3.7
 
-I'll help you create a concept dependency graph for the Finance for Life course by analyzing each concept and determining its dependencies. First, let me examine the CSV file to understand what concepts we're working with.
+I'll help you create a concept dependency graph for the Personal Finance course by analyzing each concept and determining its dependencies. First, let me examine the CSV file to understand what concepts we're working with.
 
 ```js
 // Let's read the CSV file and examine its contents

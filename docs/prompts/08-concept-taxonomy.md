@@ -21,9 +21,9 @@
 
 ## Response
 
-I'll create a taxonomy to help categorize the concepts in your Finance for Life course. Based on the course description, the Bloom's taxonomy version, and your suggested categories, here's a comprehensive taxonomy structure with 12 categories:
+I'll create a taxonomy to help categorize the concepts in your personal finance course. Based on the course description, the Bloom's taxonomy version, and your suggested categories, here's a comprehensive taxonomy structure with 12 categories:
 
-## Finance for Life Concept Taxonomy
+## Personal Finance Concept Taxonomy
 
 ### 1. Foundational Concepts
 

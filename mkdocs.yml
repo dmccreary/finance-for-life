@@ -1,9 +1,9 @@
-site_name: Finance for Life
-site_description: 'A practical introduction to all areas of finance for modern life'
+site_name: Personal Finance with AI
+site_description: 'An AI driven course for teaching a practical introduction to personal finance for modern life.'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
-site_url: 'https://dmccreary.github.io/finance-for-life/'
-repo_url: 'https://github.com/dmccreary/finance-for-life'
+site_url: 'https://dmccreary.github.io/personal-finance/'
+repo_url: 'https://github.com/dmccreary/personal-finance'
 edit_uri: 'blob/master/docs'
 
 nav:

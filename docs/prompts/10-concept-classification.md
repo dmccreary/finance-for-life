@@ -20,7 +20,7 @@
 
 ## Response 
 
-I've created a taxonomy classification system for the Finance for Life course concepts and assigned each concept to the most appropriate category. Based on the data in the concept dependency list, I've generated a new CSV file with the added TaxonomyID column.
+I've created a taxonomy classification system for the  Personal Finance course concepts and assigned each concept to the most appropriate category. Based on the data in the concept dependency list, I've generated a new CSV file with the added TaxonomyID column.
 Here's a summary of the taxonomy categories and concept distribution:
 Taxonomy Categories
 
@@ -48,7 +48,6 @@ Economic concepts (Inflation, Federal Reserve)
 - Consumer loans (auto, student, personal)
 - Mortgage products
 - Interest rates and refinancing
-
 
 ### Taxation Fundamentals (14 concepts)
 

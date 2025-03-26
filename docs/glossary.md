@@ -1,6 +1,8 @@
-# Finance for Life: Course Glossary
+# Glossary
 
-This glossary provides clear, concise definitions for key concepts covered in the Finance for Life course. Each entry includes a practical example of how the concept applies in real-world financial situations. Terms are organized alphabetically for easy reference.
+Course Glossary for the Personal Finance with AI Course
+
+This glossary provides clear, concise definitions for key concepts covered in the personal finance course. Each entry includes a practical example of how the concept applies in real-world financial situations. Terms are organized alphabetically for easy reference.  Many terms also have an example of how the term is used in this course.  Many of the terms also provide links to the relevant [MicroSim](#microsim)
 
 ## A
 
@@ -785,6 +787,15 @@ The federal health insurance program for people 65 or older, certain younger peo
 Small loans, typically with simplified application processes, designed to support entrepreneurs and small businesses that may not qualify for traditional bank loans.
 
 **Example:** In our entrepreneurship section, you'll explore how microloans can provide critical startup capital for small businesses with minimal credit history.
+
+#### MicroSim
+
+A small in-browser simulation of concepts in personal finance.
+
+MicroSims have input controls that the users manipulate to see how their financial decisions will impact outcomes.
+
+**Example:** The [College Loan Payback](sims/college-loan-payback/index.md) MicroSim can teach you the benefits
+of paying off loans early to avoid excessive interest payments.
 
 #### Mobile Banking
 

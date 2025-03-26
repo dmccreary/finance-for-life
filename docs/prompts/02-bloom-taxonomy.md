@@ -5,7 +5,7 @@
 
 ## Response
 
-**Title:** FINANCE FOR LIFE: A Comprehensive Introduction to Personal Finance for Modern Living
+**Title:** Personal Finance with AI: A Comprehensive Introduction to Personal Finance for Modern Living
 
 ### COURSE OVERVIEW
 
@@ -17,7 +17,7 @@ This foundational course provides young adults (high school seniors and college 
 
 ### COURSE DESCRIPTION
 
-Finance for Life equips students with the knowledge, skills, and confidence to navigate the complex financial landscape of modern society. Through interactive lectures, case studies, simulations, and hands-on activities, students will explore the fundamental principles, processes, and products that form the backbone of personal financial management. This course emphasizes practical application of financial concepts to everyday situations, critical evaluation of financial options, and development of personalized financial strategies.
+Personal Finance with AI equips students with the knowledge, skills, and confidence to navigate the complex financial landscape of modern society. Through interactive lectures, case studies, simulations, and hands-on activities, students will explore the fundamental principles, processes, and products that form the backbone of personal financial management. This course emphasizes practical application of financial concepts to everyday situations, critical evaluation of financial options, and development of personalized financial strategies.
 
 ### FOUNDATIONAL DEFINITIONS
 

@@ -1,79 +1,131 @@
 # Course Description
 
-**Course Title:** Finance For Life: A practical introduction to all areas of finance for modern life
+**Course Title:** Personal Finance: A practical introduction to all areas of finance for modern life
 
 ## Audience
 
 This course is intended for young adults (high school or college freshman) and is intended to cover all things financial for modern life along with links to resources for deeper dive as desired.
 
-## Course Syllabus
+## Course Content
 
--   Finance in modern life -- Why do you need this course
+## 1. [Foundational Financial Concepts](chapters/01-foundational-financial-concepts/index.md)
 
-### Banking
+- Money management principles
+- Financial goal setting
+- Economic literacy fundamentals
+- Financial decision-making frameworks
+- Opportunity cost
+- Time value of money
 
--   What are banks
--   Why do you need banks
--   History of banking
--   How banks make money and why you should care
+## 2. [Banking & Cash Management](chapters/02-banking-and-cash-management/index.md)
 
-## Taxes
+- Types of financial institutions
+- Checking and savings accounts
+- Online and mobile banking
+- Account fees and features
+- ATM usage and debit cards
+- Balancing accounts
+- Electronic payment systems
 
--   Death and Taxes -- the only two things that will never change
--   Overview taxes in the US
--   Federal Taxes
--   State Taxes
--   Sales Tax
--   Estate Tax
--   Other
+## 3. [Budgeting & Financial Planning](chapters/03-budgeting-and-financial-planning/index.md)
 
-## Health Insurance 
+- Creating personal budgets
+- Income tracking
+- Expense categorization
+- Needs vs. wants analysis
+- Emergency funds
+- Saving strategies
+- Financial record keeping
 
--   What is health insurance and how does it work and why you should REALLY care
--   History of health insurance in US
--   Navigating the maze -- types of health insurance and which ones do you need
+## 4. [Credit & Debt Management](chapters/04-credit-and-debt-management/index.md)
 
-## Property & Casualty Insurance
+- Credit scores and reports
+- Building and maintaining good credit
+- Credit cards and responsible usage
+- Types of consumer debt
+- Interest rates and calculations
+- Debt repayment strategies
+- Avoiding predatory lending
 
-### Auto Insurance
+## 5. [Saving & Investing](chapters/05-saving-and-investing/index.md)
 
-1.  Do you want to drive? Then you must have one
-2.  Overview of policies and terms and what you should care about
+- Savings account options
+- Investment fundamentals
+- Risk and return concepts
+- Stock market basics
+- Bonds and fixed income
+- Mutual funds and ETFs
+- Compound interest
+- Dollar-cost averaging
 
-### Property (House, apartment, boat, etc) insurance
+## 6. [Income & Taxes](chapters/06-income-and-taxes/index.md)
 
-1.  Do you want to drive? Then you must have one
-2.  Overview of policies and terms and what you should care about
+- Understanding paychecks and withholding
+- Filing tax returns
+- W-4 and W-2 forms
+- Standard deductions vs. itemizing
+- Tax credits vs. deductions
+- State and local taxes
+- Tax planning basics
 
-## Life Insurance
+## 7. [Insurance & Risk Management](chapters/07-insurance-and-risk-management/index.md)
 
--   What is it and how does it works 
--   History of life insurance
--   When do you need one
+- Insurance principles and terminology
+- Health insurance basics
+- Auto insurance requirements
+- Renter's and homeowner's insurance
+- Policy features (deductibles, premiums, etc.)
+- Filing claims
+- Liability protection
 
-## Loans
+## 8. [Major Purchases & Loans](chapters/08-major-purchases-and-loans/index.md)
 
--   Car Loans
--   Mortgage Loans
--   Personal Loans
--   Business Loans
+- Auto loans and financing
+- Housing costs (renting vs. buying)
+- Mortgage basics
+- Student loan options and repayment
+- Comparison shopping
+- Negotiation skills
+- Understanding contracts
 
-## Financial Markets
+## 9. [Consumer Protection & Financial Security](chapters/09-consumer-protection-and-financial-security/index.md)
 
--   Why you need to know
--   History of financial markets and speculation
+- Identity theft prevention
+- Online security practices
+- Common financial scams
+- Consumer rights
+- Dispute resolution
+- Reading financial agreements
+- Privacy protection
 
-## Investment Vehicles
+## 10. [College & Education Planning](./10-college-and-education-planning/index.md)
 
-While this could be a whole other course this is intended to do an overview of each vehicle comparing them to each other
+- College cost estimation
+- Scholarship and grant opportunities
+- FAFSA and financial aid
+- Student loan types
+- College ROI calculations
+- Alternative education pathways
+- Work-study and part-time employment
 
--   Debt
--   Equities
--   Indexes
--   Mutual Funds
--   Options and Futures
--   Commodities
--   Annuities
--   Crypto
--   Private Equity
--   Hedge Funds
+## 11. [Career Planning & Income](chapters/11-career-planning-and-income/index.md)
+
+- Career exploration
+- Income potential research
+- Employee benefits overview
+- Entrepreneurship basics
+- Side hustle opportunities
+- Salary negotiation
+- Resume and interview skills
+
+## 12. [Retirement & Long-term Planning](chapters/12-retirement-and-long-term-planning/)
+
+- Retirement account types (401(k), IRA)
+- Employer-sponsored plans
+- Social Security basics
+- Power of early investing
+- Long-term investment strategies
+- Estate planning introduction
+- Financial independence concepts
+
+This curriculum covers the essential topics that help prepare high school students for financial independence and responsibility as they transition to adulthood.

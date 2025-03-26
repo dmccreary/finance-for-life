@@ -1,5 +1,11 @@
-# Contact
+# Contacts
 
-Please contact me on [LinkedIn](https://www.linkedin.com/in/edwardsverdlin/)
+## Primary Contact
 
-Thanks! - Ed
+[Dan McCreary]()
+
+## Content Review
+
+[Ed Sverdlin on LinkedIn](https://www.linkedin.com/in/edwardsverdlin/)
+
+
