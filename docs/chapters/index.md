@@ -4,7 +4,7 @@ Based on the course materials you've shared and my understanding of personal fin
 
 # Personal Finance Curriculum for High School Students
 
-## 1. [Foundational Financial Concepts](01-foundational-financial-concepts.md)
+## 1. [Foundational Financial Concepts](01-foundational-financial-concepts/index.md)
 
 - Money management principles
 - Financial goal setting
@@ -13,7 +13,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Opportunity cost
 - Time value of money
 
-## 2. [Banking & Cash Management](./02-banking-and-cash-management/)
+## 2. [Banking & Cash Management](./02-banking-and-cash-management/index.md)
 
 - Types of financial institutions
 - Checking and savings accounts
@@ -23,7 +23,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Balancing accounts
 - Electronic payment systems
 
-## 3. [Budgeting & Financial Planning](./03-budgeting-and-financial-planning/)
+## 3. [Budgeting & Financial Planning](./03-budgeting-and-financial-planning/index.md)
 
 - Creating personal budgets
 - Income tracking
@@ -33,7 +33,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Saving strategies
 - Financial record keeping
 
-## 4. [Credit & Debt Management](./04-credit-and-debt-management/)
+## 4. [Credit & Debt Management](./04-credit-and-debt-management/index.md)
 
 - Credit scores and reports
 - Building and maintaining good credit
@@ -43,7 +43,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Debt repayment strategies
 - Avoiding predatory lending
 
-## 5. [Saving & Investing](./05-saving-and-investing/)
+## 5. [Saving & Investing](./05-saving-and-investing/index.md)
 
 - Savings account options
 - Investment fundamentals
@@ -54,7 +54,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Compound interest
 - Dollar-cost averaging
 
-## 6. [Income & Taxes](./06-income-and-taxes/)
+## 6. [Income & Taxes](./06-income-and-taxes/index.md)
 
 - Understanding paychecks and withholding
 - Filing tax returns
@@ -64,7 +64,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - State and local taxes
 - Tax planning basics
 
-## 7. [Insurance & Risk Management](./07-insurance-and-risk-management/)
+## 7. [Insurance & Risk Management](./07-insurance-and-risk-management/index.md)
 
 - Insurance principles and terminology
 - Health insurance basics
@@ -74,7 +74,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Filing claims
 - Liability protection
 
-## 8. [Major Purchases & Loans](./08-major-purchases-and-loans/)
+## 8. [Major Purchases & Loans](./08-major-purchases-and-loans/index.md)
 
 - Auto loans and financing
 - Housing costs (renting vs. buying)
@@ -84,7 +84,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Negotiation skills
 - Understanding contracts
 
-## 9. [Consumer Protection & Financial Security](./09-consumer-protection-and-financial-security/)
+## 9. [Consumer Protection & Financial Security](./09-consumer-protection-and-financial-security/index.md)
 
 - Identity theft prevention
 - Online security practices
@@ -94,7 +94,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Reading financial agreements
 - Privacy protection
 
-## 10. [College & Education Planning](./10-college-and-education-planning/)
+## 10. [College & Education Planning](./10-college-and-education-planning/index.md)
 
 - College cost estimation
 - Scholarship and grant opportunities
@@ -104,7 +104,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Alternative education pathways
 - Work-study and part-time employment
 
-## 11. [Career Planning & Income](./11-career-planning-and-income/)
+## 11. [Career Planning & Income](./11-career-planning-and-income/index.md)
 
 - Career exploration
 - Income potential research
