@@ -40,6 +40,7 @@ nav:
   - MicroSims:
     - Introduction: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
+    - Compound Interest Visualizer: sims/compound-interest-visualizer/index.md
     - College Loan Payback: sims/college-loan-payback/index.md
     - Active vs Indexed Funds: sims/active-vs-indexed/index.md
   - Resources:

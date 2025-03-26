@@ -1,18 +1,18 @@
 # Compound Savings Interest Visualizer MicroSim
 
-<iframe src="main.html" height="575px" scrolling="no"></iframe>
+<iframe src="main.html" height="515px" scrolling="no"></iframe>
 
 <!--
 ![Image Name](./image.png){ width="400" }
 -->
 
 [Run the MicroSim](main.html){ .md-button .md-button--primary }
-[Edit this MicroSim](https://editor.p5js.org/dmccreary/sketches/dJq4nTXE4)
+[Edit this MicroSim](https://editor.p5js.org/dmccreary/sketches/e4qldfXYX4)
 
 ## Sample iframe
 
 ```html
-<iframe src="https://dmccreary.github.io/microsims/sims/name/main.html" height="535px"  scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/personal-finance/sims/compound-interest-visualizer/main.html" height="515px"  scrolling="no"></iframe>
 ```
 
 ## About this MicroSim
