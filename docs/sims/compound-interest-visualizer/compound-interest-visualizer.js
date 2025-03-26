@@ -3,7 +3,7 @@
 // using a horizontal time-series line graph
 // Canvas dimensions
 let canvasWidth = 500;
-let drawHeight = 400;
+let drawHeight = 420;
 let controlHeight = 100;
 let canvasHeight = drawHeight + controlHeight;
 let margin = 10;
@@ -144,7 +144,7 @@ function drawChart() {
   // Set up chart area
   let chartMargin = 50;
   let chartWidth = canvasWidth - 2 * chartMargin;
-  let chartHeight = drawHeight - 2.5 * chartMargin;
+  let chartHeight = drawHeight - 3 * chartMargin;
   
   // Calculate max value for scaling
   let maxValue = Math.max(...savingsValues);
@@ -155,7 +155,7 @@ function drawChart() {
   // Draw axes
   // use these lines to move the entire chart around on the canvas
   push();
-     translate(25, 25);
+     translate(25, 45);
   stroke('black');
   strokeWeight(1);
   
@@ -193,7 +193,7 @@ function drawChart() {
   // X and Y axis titles
   textAlign(CENTER, BOTTOM);
   textSize(14);
-  text("Month", chartMargin + chartWidth / 2, drawHeight - 30);
+  text("Month", chartMargin + chartWidth / 2, drawHeight - 55);
   
   push();
      translate(chartMargin - 35, chartMargin + chartHeight/2);
@@ -276,7 +276,7 @@ function drawChart() {
   // Show final values
   push();
   // adjust these values to move the final amounts
-  translate(0, -40);
+  translate(0, -60);
   textAlign(RIGHT, BOTTOM);
   textSize(16);
   fill('black');

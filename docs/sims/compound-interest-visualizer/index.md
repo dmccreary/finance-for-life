@@ -1,6 +1,6 @@
 # Compound Savings Interest Visualizer MicroSim
 
-<iframe src="main.html" height="515px" scrolling="no"></iframe>
+<iframe src="main.html" height="525px" scrolling="no"></iframe>
 
 <!--
 ![Image Name](./image.png){ width="400" }
@@ -12,13 +12,12 @@
 ## Sample iframe
 
 ```html
-<iframe src="https://dmccreary.github.io/personal-finance/sims/compound-interest-visualizer/main.html" height="515px"  scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/personal-finance/sims/compound-interest-visualizer/main.html" height="525px"  scrolling="no"></iframe>
 ```
 
 ## About this MicroSim
 
-This MicroSim teaches us how to
-specify the drawing of a static filled circle.
+This MicroSim teaches how compound interest works.
 
 ## Sample Prompt
 
