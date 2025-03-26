@@ -16,6 +16,12 @@ Tax-advantaged savings accounts specifically designed to help pay for education 
 
 **Example:** We'll explore how starting a 529 plan when your child is born can provide substantial funds for college tuition through compound growth over 18 years.
 
+#### Active Fund Management
+
+A financial professional who makes specific investment decisions for a mutual fund, exchange-traded fund (ETF), pension fund, or other investment vehicle with the goal of outperforming a designated market benchmark or index.
+
+Active fund managers operate under the premise that markets are not perfectly efficient and that skilled professionals can identify mispriced securities or capitalize on market trends to generate superior returns. However, numerous studies have shown that the majority of active managers fail to consistently outperform their benchmarks over long time periods after fees are considered.
+
 #### Algorithmic Investing
 
 An automated investment strategy that uses computer programs to execute trades based on predetermined rules, criteria, and mathematical models.

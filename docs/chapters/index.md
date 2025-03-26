@@ -1,9 +1,5 @@
 # Personal Finance Chapters
 
-Based on the course materials you've shared and my understanding of personal finance education in the United States, here's a comprehensive list of subjects typically covered in high school personal finance courses:
-
-# Personal Finance Curriculum for High School Students
-
 ## 1. [Foundational Financial Concepts](01-foundational-financial-concepts/index.md)
 
 - Money management principles
@@ -115,6 +111,7 @@ Based on the course materials you've shared and my understanding of personal fin
 - Resume and interview skills
 
 ## 12. Retirement & Long-term Planning
+
 - Retirement account types (401(k), IRA)
 - Employer-sponsored plans
 - Social Security basics

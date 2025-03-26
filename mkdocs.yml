@@ -37,6 +37,7 @@ nav:
     - Introduction: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
     - College Loan Payback: sims/college-loan-payback/index.md
+    - Active vs Indexed Funds: sims/active-vs-indexed/index.md
   - Resources:
     - Introduction: resources/index.md
     - Minnesota Personal Finance Legislation: resources/mn-legislation.md
