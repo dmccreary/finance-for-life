@@ -54,40 +54,47 @@ This interactive MicroSim demonstrates the significant impact that investment fe
 ## How to Use the Simulator
 
 1. **Adjust the Sliders**:
-   - Initial Investment: How much money you're starting with
-   - Annual Fee: The percentage the actively managed fund charges each year
-   - Investment Period: How many years you plan to invest
-   - Market Return: The expected annual return of the market
+
+- Initial Investment: How much money you're starting with
+- Annual Fee: The percentage the actively managed fund charges each year
+- Investment Period: How many years you plan to invest
+- Market Return: The expected annual return of the market
 
 2. **Observe the Graph**:
-   - The red line shows the growth of the actively managed fund (with fees)
-   - The green line shows the growth of the index fund (without fees)
-   - The difference between these lines represents money lost to fees
+
+- The red line shows the growth of the actively managed fund (with fees)
+- The green line shows the growth of the index fund (without fees)
+- The difference between these lines represents money lost to fees
 
 3. **Analyze the Results**:
-   - Look at the final values of both investments
-   - Note the dollar difference and percentage difference
-   - Consider how this might impact your real-life investment decisions
+
+- Look at the final values of both investments
+- Note the dollar difference and percentage difference
+- Consider how this might impact your real-life investment decisions
 
 ## Suggested Explorations
 
 Try these scenarios to better understand the impact of fees:
 
-1. **Long-Term Impact**: 
-   - Set the investment period to 30 years
-   - Notice how even a small fee difference grows enormously over time
+1. **Long-Term Impact**:
+
+- Set the investment period to 30 years
+- Notice how even a small fee difference grows enormously over time
 
 2. **Fee Comparison**:
-   - Try different fee levels (0.5%, 1.0%, 1.5%, 2.0%)
-   - Observe how each 0.5% increase in fees affects your final returns
+
+- Try different fee levels (0.5%, 1.0%, 1.5%, 2.0%)
+- Observe how each 0.5% increase in fees affects your final returns
 
 3. **Market Conditions**:
-   - Explore how different market returns (5%, 7%, 10%) interact with fees
-   - Does the impact of fees increase or decrease in better-performing markets?
+
+- Explore how different market returns (5%, 7%, 10%) interact with fees
+- Does the impact of fees increase or decrease in better-performing markets?
 
 4. **Initial Investment Size**:
-   - Compare a $5,000 investment versus a $50,000 investment
-   - While the percentage difference remains similar, notice the actual dollar amount difference
+
+- Compare a $5,000 investment versus a $50,000 investment
+- While the percentage difference remains similar, notice the actual dollar amount difference
 
 ## Why This Matters
 
