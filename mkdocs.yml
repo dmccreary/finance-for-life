@@ -26,7 +26,7 @@ nav:
   - Stories:
     - Introduction: stories/index.md
     - Passive Investing: stories/passive-investing.md
-    - Selection Bias: stories/selection-bias.md
+    - Selection Bias: stories/selection-bias/index.md
   - Prompts:
     - Introduction: prompts/index.md
     - Bloom Taxonomy: prompts/02-bloom-taxonomy.md

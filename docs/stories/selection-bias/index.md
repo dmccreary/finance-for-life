@@ -1,6 +1,6 @@
 # The Magic Curtain: A Tale of Selection Bias in the Investment World
 
-![](./wizzards-and-castle.md)
+![](./wizzards-at-castle.png)
 
 Once upon a time in the financial kingdom, there lived many magical wizards called "Fund Managers." These wizards claimed to have special powers that could make money grow faster than anyone else. They worked in grand castles called "Investment Firms" and charged hefty fees for their magical services.
 

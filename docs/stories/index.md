@@ -6,4 +6,4 @@
 
 ## The Magic Curtain: A Tale of Selection Bias in the Investment World
 
-[The Magic Curtain](selection-bias.md)
+[The Magic Curtain](selection-bias/index.md.md)
