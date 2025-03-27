@@ -16,6 +16,7 @@ nav:
     - chapters/03-budgeting-and-financial-planning/index.md
     - chapters/04-credit-and-debt-management/index.md
     - chapters/05-saving-and-investing/index.md
+    - Index Funds: chapters/05-saving-and-investing/index-funds.md
     - chapters/06-income-and-taxes/index.md
     - chapters/07-insurance-and-risk-management/index.md
     - chapters/08-major-purchases-and-loans/index.md
@@ -37,6 +38,8 @@ nav:
     - Glossary: prompts/12-glossary-prompt.md
     - List of MicroSims: prompts/14-list-of-microsims.md
     - US High School Topics: prompts/03-us-high-school-topics.md
+    - Storytelling: prompts/13-storytelling.md
+    - Cover Image: prompts/15-cover-image.md
   - MicroSims:
     - Introduction: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
