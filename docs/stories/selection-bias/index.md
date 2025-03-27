@@ -60,7 +60,7 @@ Eleanor continued, *"There's a related trick called 'survivorship bias.' If you 
 
 ![](backtesting.png)
 
-*"They have another clever trick too,"* Eleanor said, lowering her voice. "It's called 'backtesting.' They develop an investment strategy, then test it against historical data to see how it would have performed in the past. If it doesn't look good, they tweak the strategy and test again. They keep doing this until they find something that would have worked great in the past."
+*"They have another clever trick too,"* Eleanor said, lowering her voice. *"It's called 'backtesting.' They develop an investment strategy, then test it against historical data to see how it would have performed in the past. If it doesn't look good, they tweak the strategy and test again. They keep doing this until they find something that would have worked great in the past."*
 
 *"But that doesn't mean it will work in the future,"* Alex realized.
 
@@ -68,7 +68,7 @@ Eleanor continued, *"There's a related trick called 'survivorship bias.' If you 
 
 ## The Bogle Connection
 
-*"This all reminds me of something I read about John Bogle," Alex said. "He founded Vanguard and created index funds partly because he realized how hard it is for active managers to consistently beat the market."*
+*"This all reminds me of something I read about John Bogle,"* Alex said. *"He founded Vanguard and created index funds partly because he realized how hard it is for active managers to consistently beat the market."*
 
 Eleanor's eyes lit up. *"Jack Bogle was a hero who understood these biases deeply! He showed that once you account for selection bias, survivorship bias, and the high fees of active management, the average actively managed fund actually underperforms the market."*
 
@@ -99,3 +99,33 @@ As Alex walked home, three important lessons became clear:
 The next time Alex saw a flashy investment advertisement showing spectacular returns, instead of being impressed, the first thought was: "I wonder what they're NOT showing me?"
 
 And that, dear student, is how understanding selection bias can make you a much wiser investor than those who fall for the magic show.
+
+## References
+
+I'll help you find appropriate academic and research-based references to support the key facts in the selection bias story. Let me search for relevant sources.
+
+Let me perform one more search to get more specific data about fund performance:
+
+Now let me search for a reference about backtesting bias:
+
+
+
+Let me do one more search to find information about John Bogle and index funds:
+
+
+
+Based on my research, here are six scholarly references to support the key facts presented in "The Magic Curtain: A Tale of Selection Bias in the Investment World":
+
+# References
+
+1. Elton, E. J., Gruber, M. J., & Blake, C. R. (1996). Survivorship Bias and Mutual Fund Performance. *The Review of Financial Studies*, 9(4), 1097-1120. This pioneering study documented that mutual funds that merge or die have worse performance than surviving funds, revealing that failure to account for survivorship bias leads to significantly inflated performance metrics in mutual fund studies. They found that "survivorship bias can give a false impression about persistence in mutual fund performance." [https://www.researchgate.net/publication/5217431_Survivorship_Bias_and_Mutual_Fund_Performance](https://www.researchgate.net/publication/5217431_Survivorship_Bias_and_Mutual_Fund_Performance)
+
+2. Brown, S. J., Goetzmann, W., Ibbotson, R. G., & Ross, S. A. (1992). Survivorship Bias in Performance Studies. *The Review of Financial Studies*, 5(4), 553-580. This landmark research analyzed the relationship between volatility and returns in samples truncated by survivorship, demonstrating how this relationship creates the appearance of predictability in fund performance when none truly exists. [https://academic.oup.com/rfs/article-abstract/5/4/553/1590264](https://academic.oup.com/rfs/article-abstract/5/4/553/1590264)
+
+3. S&P Dow Jones Indices (2024). SPIVA® U.S. Scorecard. This industry-standard report consistently shows that over a 15-year period, "there were no categories in which the majority of active managers outperformed" across domestic and international equities. The research indicates that the percentage of underperforming funds typically increases as the time horizon lengthens. [https://www.ifa.com/articles/active-fund-managers-benchmark-analysis-SP](https://www.ifa.com/articles/active-fund-managers-benchmark-analysis-SP)
+
+4. Bailey, D. H., Borwein, J. M., Lopez de Prado, M., & Zhu, Q. J. (2014). Pseudo-Mathematics and Financial Charlatanism: The Effects of Backtest Overfitting on Out-of-Sample Performance. *Notices of the American Mathematical Society*, May, 458-471. This critical paper explains how financial firms develop investment strategies by testing against historical data, repeatedly adjusting until finding something that would have performed well in the past—a practice known as "backtesting" that often leads to poor future performance. [https://datagrid.lbl.gov/backtest/](https://datagrid.lbl.gov/backtest/)
+
+5. Suhonen, A., Lennkh, M., & Perez, F. (2017). Quantifying Backtest Overfitting in Alternative Beta Strategies. *The Journal of Portfolio Management*, 43(2), 90-104. This study used a unique sample of 215 trading strategies developed by global investment banks and found a "median 73% deterioration in Sharpe ratios between backtested and live performance periods for the strategies." This research provides empirical evidence of the significant gap between hypothetical backtest results and actual performance. [https://jpm.pm-research.com/content/43/2/90](https://jpm.pm-research.com/content/43/2/90)
+
+6. Bogle, J. C. (2007). The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns. John Wiley & Sons. John Bogle, founder of Vanguard Group, created the first index fund for individual investors in 1976. His innovative idea was "ridiculed as 'un-American' and 'a sure path to mediocrity'" but has since transformed investing. Warren Buffett stated that "if a statue is ever erected to honor the person who has done the most for American investors, the hands-down choice should be Jack Bogle." [https://venturevoice.substack.com/p/how-john-bogle-started-vanguard-group](https://venturevoice.substack.com/p/how-john-bogle-started-vanguard-group)
