@@ -7,7 +7,7 @@
 -->
 
 [Run the MicroSim](main.html){ .md-button .md-button--primary }
-[Edit this MicroSim](https://editor.p5js.org/dmccreary/sketches/e4qldfXYX4)
+[Edit this MicroSim](https://editor.p5js.org/dmccreary/sketches/e4qldfXYX)
 
 ## Sample iframe
 
