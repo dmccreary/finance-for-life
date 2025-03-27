@@ -155,15 +155,15 @@ function drawChart() {
   // Draw axes
   // use these lines to move the entire chart around on the canvas
   push();
-     translate(25, 45);
-  stroke('black');
-  strokeWeight(1);
+     translate(35, 45);
+     stroke('black');
+     strokeWeight(1);
   
-  // Y-axis
-  line(chartMargin, chartMargin, chartMargin, chartMargin + chartHeight);
+     // Y-axis
+     line(chartMargin, chartMargin, chartMargin, chartMargin + chartHeight);
   
-  // X-axis
-  line(chartMargin, chartMargin + chartHeight, chartMargin + chartWidth, chartMargin + chartHeight);
+     // X-axis
+     line(chartMargin, chartMargin + chartHeight, chartMargin + chartWidth, chartMargin + chartHeight);
   
   // Draw Y-axis labels
   textAlign(RIGHT, CENTER);
@@ -198,7 +198,7 @@ function drawChart() {
   push();
      translate(chartMargin - 35, chartMargin + chartHeight/2);
      rotate(-PI / 2);
-     text("Account Value ($)", 0, -15);
+     text("Account Value ($)", 0, -25);
   pop();
   
   // Draw Initial Investment area (blue)
