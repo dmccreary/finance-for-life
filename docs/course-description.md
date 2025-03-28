@@ -98,7 +98,7 @@ This course is intended for young adults (high school or college freshman) and i
 - Reading financial agreements
 - Privacy protection
 
-## 10. [College & Education Planning](./10-college-and-education-planning/index.md)
+## 10. [College & Education Planning](chapters/10-college-and-education-planning/index.md)
 
 - College cost estimation
 - Scholarship and grant opportunities
