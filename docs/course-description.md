@@ -118,7 +118,7 @@ This course is intended for young adults (high school or college freshman) and i
 - Salary negotiation
 - Resume and interview skills
 
-## 12. [Retirement & Long-term Planning](chapters/12-retirement-and-long-term-planning/)
+## 12. [Retirement & Long-term Planning](chapters/12-retirement-and-long-term-planning/index.md)
 
 - Retirement account types (401(k), IRA)
 - Employer-sponsored plans
