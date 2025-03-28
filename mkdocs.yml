@@ -92,8 +92,7 @@ extra_css:
    - css/extra.css
 extra_javascript:
    - js/extra.js
-#extra:
-#  analytics:
-#    provider: google
-    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
-#    property: G-XXXX
+extra:
+  analytics:
+    provider: google
+    property: G-M7190QC8H7
