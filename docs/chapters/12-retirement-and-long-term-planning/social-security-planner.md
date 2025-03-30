@@ -1,5 +1,7 @@
 # Social Security Benefits: When to Start Taking Payments
 
+<iframe src="../../sims/social-security-crossover/main.html"  height="575px" scrolling="no"></iframe>
+
 ## Overview
 
 This lesson focuses on one of the most important financial decisions Americans face as they approach retirement: when to begin taking Social Security benefits. The decision can significantly impact total lifetime benefits and overall retirement security. The accompanying MicroSim calculator helps students visualize and understand the long-term implications of starting benefits at different ages.
