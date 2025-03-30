@@ -7,6 +7,7 @@ This chapter examines the role of credit and debt in personal finance. Students 
 ## Topics Covered
 
 - Credit scores and reports
+- [The FICO Score](./fico-score.md)
 - Building and maintaining good credit
 - Credit cards and responsible usage
 - Types of consumer debt
