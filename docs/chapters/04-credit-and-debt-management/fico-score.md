@@ -340,20 +340,20 @@ Whether you prefer credit cards, debit cards, or a combination of both, what mat
 ## Resources for Further Learning
 
 ### Credit Reporting Agencies
-- Equifax: www.equifax.com
-- Experian: www.experian.com
-- TransUnion: www.transunion.com
+- Equifax: [www.equifax.com](http://www.equifax.com)
+- Experian: [www.experian.com](http:www.experian.com)
+- TransUnion: [www.transunion.com](http://www.transunion.com)
 
 ### Free Credit Reports and Monitoring
-- Annual Credit Report: www.annualcreditreport.com
-- Credit Karma: www.creditkarma.com
-- Credit Sesame: www.creditsesame.com
+- Annual Credit Report: [www.annualcreditreport.com](http://www.annualcreditreport.com)
+- Credit Karma: [www.creditkarma.com](http://www.creditkarma.com)
+- Credit Sesame: [www.creditsesame.com](http://www.creditsesame.com)
 
 ### Government Resources
-- Consumer Financial Protection Bureau: www.consumerfinance.gov
-- Federal Trade Commission: www.consumer.ftc.gov
+- Consumer Financial Protection Bureau: [www.consumerfinance.gov](http://www.consumerfinance.gov)
+- Federal Trade Commission: [www.consumer.ftc.gov](http://www.consumer.ftc.gov)
 
 ### Financial Education
-- MyFICO Education Center: www.myfico.com/credit-education
-- Khan Academy Personal Finance: www.khanacademy.org/college-careers-more/personal-finance
-- National Foundation for Credit Counseling: www.nfcc.org
+- MyFICO Education Center: [www.myfico.com/credit-education](http://www.myfico.com/credit-education)
+- Khan Academy Personal Finance: [www.khanacademy.org/college-careers-more/personal-finance](http://www.khanacademy.org/college-careers-more/personal-finance)
+- National Foundation for Credit Counseling: [www.nfcc.org](http://www.nfcc.org)
