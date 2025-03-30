@@ -11,8 +11,10 @@
 
 ## Sample iframe
 
+Include this MicroSim on your web page by just copying this line:
+
 ```html
-<iframe src="https://dmccreary.github.io/personal-finance/sims/active-vs-indexed/main.html" height="400"  scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/finance-for-life/sims/active-vs-indexed/main.html" height="540px" scrolling="no"></iframe>
 ```
 
 !!! prompt

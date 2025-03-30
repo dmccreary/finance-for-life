@@ -12,3 +12,9 @@ This chapter examines strategies for funding post-secondary education. Students 
 - College ROI calculations
 - Alternative education pathways
 - Work-study and part-time employment
+
+## College Loan Payback Calculator
+
+<iframe src="../../sims/college-loan-payback/main.html" height="400"  scrolling="no"></iframe>
+
+[College Loan Payback Calculator](../../sims/college-loan-payback/index.md)

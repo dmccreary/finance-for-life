@@ -11,18 +11,39 @@ nav:
   - Course Description: course-description.md
   - Chapters:
     - Introduction: chapters/index.md
-    - chapters/01-foundational-financial-concepts/index.md
-    - chapters/02-banking-and-cash-management/index.md
-    - chapters/03-budgeting-and-financial-planning/index.md
-    - chapters/04-credit-and-debt-management/index.md
-    - chapters/05-saving-and-investing/index.md
-    - chapters/06-income-and-taxes/index.md
-    - chapters/07-insurance-and-risk-management/index.md
-    - chapters/08-major-purchases-and-loans/index.md
-    - chapters/09-consumer-protection-and-financial-security/index.md
-    - chapters/10-college-and-education-planning/index.md
-    - chapters/11-career-planning-and-income/index.md
-    - chapters/12-retirement-and-long-term-planning/index.md
+    - Foundational Financial Concepts:
+      - chapters/01-foundational-financial-concepts/index.md
+    - Banking & Cash Management:
+      - chapters/02-banking-and-cash-management/index.md
+      - chapters/02-banking-and-cash-management/regions-of-a-personal-check.md
+    - Budgeting & Financial Planning:
+      - chapters/03-budgeting-and-financial-planning/index.md
+    - Credit & Debt Management:
+      - chapters/04-credit-and-debt-management/index.md
+      - The FICO Score: chapters/04-credit-and-debt-management/fico-score.md
+      - Credit Card Bias: chapters/04-credit-and-debt-management/credit-card-bias.md
+    - Saving & Investing:
+      - chapters/05-saving-and-investing/index.md
+      - Index Funds: chapters/05-saving-and-investing/index-funds.md
+    - Income & Taxes:
+      - chapters/06-income-and-taxes/index.md
+    - Insurance:
+      - chapters/07-insurance-and-risk-management/index.md
+    - Loans:
+      - chapters/08-major-purchases-and-loans/index.md
+    - Consumer Protection:
+      - chapters/09-consumer-protection-and-financial-security/index.md
+    - College:
+      - chapters/10-college-and-education-planning/index.md
+    - Careers:
+      - chapters/11-career-planning-and-income/index.md
+    - Retirement Planning:
+      - chapters/12-retirement-and-long-term-planning/index.md
+      - chapters/12-retirement-and-long-term-planning/social-security-planner.md
+  - Stories:
+    - Introduction: stories/index.md
+    - Passive Investing: stories/passive-investing.md
+    - Selection Bias: stories/selection-bias/index.md
   - Prompts:
     - Introduction: prompts/index.md
     - Bloom Taxonomy: prompts/02-bloom-taxonomy.md
@@ -33,11 +54,16 @@ nav:
     - Glossary: prompts/12-glossary-prompt.md
     - List of MicroSims: prompts/14-list-of-microsims.md
     - US High School Topics: prompts/03-us-high-school-topics.md
+    - Storytelling: prompts/13-storytelling.md
+    - Cover Image: prompts/15-cover-image.md
   - MicroSims:
     - Introduction: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
+    - Compound Interest Visualizer: sims/compound-interest-visualizer/index.md
     - College Loan Payback: sims/college-loan-payback/index.md
     - Active vs Indexed Funds: sims/active-vs-indexed/index.md
+    - Social Security: sims/social-security-crossover/index.md
+    - FICO Score Spectrum: sims/fico-score-spectrum/index.md
   - Resources:
     - Introduction: resources/index.md
     - Minnesota Personal Finance Legislation: resources/mn-legislation.md
@@ -73,6 +99,7 @@ theme:
 plugins:
   - search
   - social
+  - social_override
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -84,8 +111,7 @@ extra_css:
    - css/extra.css
 extra_javascript:
    - js/extra.js
-#extra:
-#  analytics:
-#    provider: google
-    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
-#    property: G-XXXX
+extra:
+  analytics:
+    provider: google
+    property: G-M7190QC8H7

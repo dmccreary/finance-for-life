@@ -1,0 +1,2 @@
+!!! prompt
+    Generate a cover image for a new book called "Personal Finance with AI".  The audience is high school students that are taking a class in personal finance.  Make it a fun high energy image showing a diverse group of teens having fun with an AI tutor.

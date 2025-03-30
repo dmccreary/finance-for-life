@@ -526,6 +526,16 @@ Measures taken to detect and deter deceptive practices attempting to steal money
 
 **Example:** Our personal security module will teach practical fraud prevention techniques, from freezing your credit reports to recognizing common scams targeting young adults.
 
+#### Full Retirement Age
+
+The age at which you get the full retirement benefits.
+
+This is called "FRA".
+
+In the US, the FRA is currently 67 years old for anyone born in 1960 or later (66 plus a number of months for those born earlier).
+
+When you claim before your Full Retirement Age (FRA), your benefits are permanently reduced. The reduction is approximately 0.556% per month (or about 6.67% per year) for the first 36 months before your FRA. If you claim more than 36 months early, any additional months are reduced by 0.417% per month (or about 5% per year)
+
 #### Futures
 
 Standardized contracts obligating parties to buy or sell an asset at a predetermined future date and price.
