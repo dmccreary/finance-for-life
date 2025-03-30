@@ -7,7 +7,7 @@ article h1 {display: none}
 
 Welcome to the Personal Finance with AI website.
 
-This course is fun interactive way for high school students interested
+This course is a fun interactive way for high school students interested
 in all things related to personal finance.  We have used
 generative AI tools to build interactive simulations and
 storytelling to make learning exciting.

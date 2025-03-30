@@ -46,6 +46,7 @@ nav:
     - Compound Interest Visualizer: sims/compound-interest-visualizer/index.md
     - College Loan Payback: sims/college-loan-payback/index.md
     - Active vs Indexed Funds: sims/active-vs-indexed/index.md
+    - Social Security: sims/social-security-crossover/index.md
   - Resources:
     - Introduction: resources/index.md
     - Minnesota Personal Finance Legislation: resources/mn-legislation.md
@@ -81,6 +82,7 @@ theme:
 plugins:
   - search
   - social
+  # - social_override
 markdown_extensions:
   - admonition
   - pymdownx.details
