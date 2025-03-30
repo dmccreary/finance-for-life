@@ -1,12 +1,10 @@
 // Credit Score Spectrum MicroSim using p5.js
-// User see a horizontal rectangle with red on the left and green on the right
-// As they hover over the regions the score for that region is display in the infobox below the spectrum
 // Canvas dimensions
 let canvasWidth = 800;
-let canvasHeight = 280;
+let canvasHeight = 300;
 let margin = 40;
 let spectrumHeight = 60;
-let infoBoxHeight = 100;
+let infoBoxHeight = 120;
 let defaultTextSize = 16;
 
 // Score ranges data
@@ -61,20 +59,12 @@ let containerHeight = canvasHeight; // fixed height on page
 let activeRangeIndex = -1;
 let totalScoreRange = 850 - 300;
 
-// Spectrum position variables - defined globally so they can be accessed across functions
-let spectrumTop;
-let spectrumWidth;
-
 function setup() {
   // Create a canvas to match the parent container's size
   updateCanvasSize();
   const canvas = createCanvas(containerWidth, containerHeight);
   canvas.parent(document.querySelector('main'));
   textSize(defaultTextSize);
-  
-  // Initialize spectrum position variables
-  spectrumTop = margin * 2 + 10;
-  spectrumWidth = canvasWidth - (margin * 2);
   
   describe('A horizontal bar showing the FICO credit score spectrum from 300 to 850, color-coded from red to green to indicate increasing creditworthiness.', LABEL);
 }
@@ -89,46 +79,35 @@ function draw() {
   textAlign(CENTER, TOP);
   text("FICO Credit Score Spectrum", canvasWidth/2, margin/2);
   
-  // Update spectrum width in case of resize
-  spectrumWidth = canvasWidth - (margin * 2);
-  
-  // Check mouse hover for the entire spectrum
-  checkHover();
-  
   // Draw spectrum bar
   drawSpectrum();
   
   // Draw info box
   drawInfoBox();
+  
 }
 
-function checkHover() {
-  // Set default (no hover)
-  activeRangeIndex = -1;
+function drawSpectrum() {
+  let spectrumTop = margin * 2 + 10;
+  let spectrumWidth = canvasWidth - (margin * 2);
   
-  // Adjust the spectrum top position to match where we're actually drawing
-  let adjustedSpectrumTop = spectrumTop - 30;
-  
-  // Only check if the mouse is within the general spectrum area
-  if (mouseY >= adjustedSpectrumTop && mouseY <= adjustedSpectrumTop + spectrumHeight &&
-      mouseX >= margin && mouseX <= margin + spectrumWidth) {
-    
-    // Calculate which score range the mouse is over
+  // Check mouse hover
+  if (mouseY > spectrumTop && mouseY < spectrumTop + spectrumHeight &&
+      mouseX > margin && mouseX < margin + spectrumWidth) {
+    // Find which segment the mouse is over
     let relativeX = mouseX - margin;
-    let mouseScore = map(relativeX, 0, spectrumWidth, 300, 850);
+    let scorePosition = map(relativeX, 0, spectrumWidth, 300, 850);
     
-    // Find which range this score falls into
+    activeRangeIndex = -1;
     for (let i = 0; i < scoreRanges.length; i++) {
-      if (mouseScore >= scoreRanges[i].start && mouseScore <= scoreRanges[i].end) {
+      if (scorePosition >= scoreRanges[i].start && scorePosition <= scoreRanges[i].end) {
         activeRangeIndex = i;
         break;
       }
     }
+  } else {
+    activeRangeIndex = -1;
   }
-}
-
-function drawSpectrum() {
-  let adjustedSpectrumTop = spectrumTop - 30;
   
   // Draw each segment
   push();
@@ -153,7 +132,15 @@ function drawSpectrum() {
     fill(255);
     textSize(16);
     textAlign(CENTER, CENTER);
-    text(range.range, x + rangeWidth/2, spectrumTop + spectrumHeight/2);
+    
+    // Split text into two lines for the narrower segments
+    if (range.range === "740-799" || range.range === "800-850") {
+      let parts = range.range.split('-');
+      text(parts[0] + '-', x + rangeWidth/2, spectrumTop + spectrumHeight/2 - 10);
+      text(parts[1], x + rangeWidth/2, spectrumTop + spectrumHeight/2 + 10);
+    } else {
+      text(range.range, x + rangeWidth/2, spectrumTop + spectrumHeight/2);
+    }
   }
   
   // Draw min and max labels
@@ -212,8 +199,6 @@ function windowResized() {
   // Update canvas size when the container resizes
   updateCanvasSize();
   resizeCanvas(containerWidth, containerHeight);
-  // Update spectrum position variables
-  spectrumWidth = canvasWidth - (margin * 2);
   redraw();
 }
 
