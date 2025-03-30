@@ -1,6 +1,7 @@
 # Social Security Benefits: When to Start Taking Payments
 
-<iframe src="../../sims/social-security-crossover/main.html"  height="575px" scrolling="no"></iframe>
+<!-- we use the root path in this example since relative paths are not working -->
+<iframe src="/personal-finance/sims/social-security-crossover/main.html" height="575px" scrolling="no"></iframe>
 
 [Social Security Crossover MicroSim](../../sims/social-security-crossover/index.md)
 
