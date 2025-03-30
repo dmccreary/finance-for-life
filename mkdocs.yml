@@ -25,12 +25,19 @@ nav:
       - Index Funds: chapters/05-saving-and-investing/index-funds.md
     - Income & Taxes:
       - chapters/06-income-and-taxes/index.md
-    - chapters/07-insurance-and-risk-management/index.md
-    - chapters/08-major-purchases-and-loans/index.md
-    - chapters/09-consumer-protection-and-financial-security/index.md
-    - chapters/10-college-and-education-planning/index.md
-    - chapters/11-career-planning-and-income/index.md
-    - chapters/12-retirement-and-long-term-planning/index.md
+    - Insurance:
+      - chapters/07-insurance-and-risk-management/index.md
+    - Loans:
+      - chapters/08-major-purchases-and-loans/index.md
+    - Consumer Protection:
+      - chapters/09-consumer-protection-and-financial-security/index.md
+    - College:
+      - chapters/10-college-and-education-planning/index.md
+    - Careers:
+      - chapters/11-career-planning-and-income/index.md
+    - Retirement Planning:
+      - chapters/12-retirement-and-long-term-planning/index.md
+      - chapters/12-retirement-and-long-term-planning/social-security-planner.md
   - Stories:
     - Introduction: stories/index.md
     - Passive Investing: stories/passive-investing.md
