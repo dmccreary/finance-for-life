@@ -1,3 +1,7 @@
+---
+image: fico-score-spectrum.png
+---
+
 # Understanding Your FICO Credit Score: A Comprehensive Guide
 
 ## Introduction
