@@ -11,13 +11,20 @@ nav:
   - Course Description: course-description.md
   - Chapters:
     - Introduction: chapters/index.md
-    - chapters/01-foundational-financial-concepts/index.md
-    - chapters/02-banking-and-cash-management/index.md
-    - chapters/03-budgeting-and-financial-planning/index.md
-    - chapters/04-credit-and-debt-management/index.md
-    - chapters/05-saving-and-investing/index.md
-    - Index Funds: chapters/05-saving-and-investing/index-funds.md
-    - chapters/06-income-and-taxes/index.md
+    - Foundational Financial Concepts:
+      - chapters/01-foundational-financial-concepts/index.md
+    - Banking & Cash Management:
+      - chapters/02-banking-and-cash-management/index.md
+      - chapters/02-banking-and-cash-management/regions-of-a-personal-check.md
+    - Budgeting & Financial Planning:
+      - chapters/03-budgeting-and-financial-planning/index.md
+    - Credit & Debt Management:
+      - chapters/04-credit-and-debt-management/index.md
+    - Saving & Investing:
+      - chapters/05-saving-and-investing/index.md
+      - Index Funds: chapters/05-saving-and-investing/index-funds.md
+    - Income & Taxes:
+      - chapters/06-income-and-taxes/index.md
     - chapters/07-insurance-and-risk-management/index.md
     - chapters/08-major-purchases-and-loans/index.md
     - chapters/09-consumer-protection-and-financial-security/index.md
