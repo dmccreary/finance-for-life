@@ -7,7 +7,7 @@
 -->
 
 [Run the FICO Credit Score Spectrum MicroSim](main.html){ .md-button .md-button--primary }
-[Edit FICO Credit Score Spectrum MicroSim](https://editor.p5js.org/dmccreary/sketches/_fwuOWd7v)
+[Edit FICO Credit Score Spectrum MicroSim](https://editor.p5js.org/dmccreary/sketches/GUzxXH_cS)
 
 ## Sample iframe
 
