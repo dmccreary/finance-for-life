@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies
+1,"Personal Finance",
+2,"Financial Literacy",
+3,"Money Management",1|2
+4,"Financial Goals",1
+5,"SMART Goals",4
+6,"Financial Philosophy",1|2
+7,"Financial Planning Process",1|3|4
+8,"Balance Sheet",1|3
+9,"Cash Flow Statement",1|3|8
+10,"Budget",3|9
+11,"Emergency Fund",3|10
+12,"Financial Safety Net",11
+13,"Life Cycle Financial Planning",1|7
+14,"Fintech",2
+15,"Banking System",
+16,"Financial Institutions",15
+17,"Commercial Banks",16
+18,"Credit Unions",16
+19,"Online Banks",16|14
+20,"Checking Accounts",17|18|19
+21,"Savings Accounts",17|18|19
+22,"Money Market Accounts",17|18|19
+23,"Interest Rates",15
+24,"Bank Fees",16|20|21|22
+25,"Electronic Banking",14|16
+26,"Mobile Banking",14|25
+27,"Income Sources",3
+28,"Expense Tracking",3|10
+29,"Expense Categories",28
+30,"Cash Management",3|10|20
+31,"Credit Reports",
+32,"Credit Score",31
+33,"Credit Bureaus",31
+34,"Consumer Rights",31|33
+35,"Identity Protection",34
+36,"Fraud Prevention",35
+37,"Credit Counseling",32|38
+38,"Consumer Debt",
+39,"Revolving Debt",38
+40,"Installment Debt",38
+41,"Strategic Borrowing",32|38
+42,"Debt Reduction Strategies",38|39|40
+43,"Debt Consolidation",42
+44,"Bankruptcy",38|42
+45,"Debt Settlement",38|42
+46,"Auto Loans",40
+47,"Student Loans",40
+48,"Federal Student Loans",47
+49,"Private Student Loans",47
+50,"Personal Loans",40
+51,"Lines of Credit",39
+52,"Buy Now Pay Later Services",38
+53,"Payday Loans",38
+54,"Predatory Lending",38|53
+55,"Mortgage Loans",40
+56,"Mortgage Types",55
+57,"Home Buying Process",55|56
+58,"Refinancing",55|56
+59,"Reverse Mortgages",55
+60,"Rent vs Buy Analysis",55|57
+61,"Small Business Loans",40
+62,"Microloans",61
+63,"Venture Capital",
+64,"Angel Investing",63
+65,"Crowdfunding",14
+66,"SBA Resources",61
+67,"Tax System",
+68,"Progressive Taxation",67
+69,"Income Tax",67|68
+70,"Payroll Tax",67
+71,"Property Tax",67
+72,"Sales Tax",67
+73,"Tax Filing Status",69
+74,"Dependents (Tax)",69|73
+75,"Standard Deduction",69
+76,"Itemized Deductions",69|75
+77,"Tax Credits",69
+78,"W-4 Form",69|70
+79,"1040 Form",69|73|75|76|77
+80,"401(k) Plans",69|138
+81,"IRA Accounts",69|139
+82,"HSA Accounts",69|99
+83,"529 Plans",69
+84,"Tax Loss Harvesting",69|134
+85,"Charitable Giving",69|76
+86,"State & Local Taxation",67
+87,"Estate Tax",67
+88,"Gift Tax",67
+89,"Risk Assessment",
+90,"Risk Management",89
+91,"Insurance Terminology",90
+92,"Insurance Coverage",90|91
+93,"Policy Exclusions",91|92
+94,"Deductibles",91|92
+95,"Premiums",91|92
+96,"Claims Process",91|92
+97,"Self-Insurance",90
+98,"U.S. Healthcare System",
+99,"Health Insurance Plans",98
+100,"HMO Plans",99
+101,"PPO Plans",99
+102,"HDHP Plans",99
+103,"Medicare",98|99
+104,"Medicaid",98|99
+105,"Health Savings Accounts",99|102
+106,"Flexible Spending Accounts",99
+107,"Auto Insurance",91|92
+108,"Liability Insurance",91|92
+109,"Comprehensive Insurance",107
+110,"Collision Insurance",107
+111,"Homeowners Insurance",91|92
+112,"Renters Insurance",91|92
+113,"Umbrella Liability Policies",108
+114,"Flood Insurance",111
+115,"Term Life Insurance",91|92
+116,"Permanent Life Insurance",91|92
+117,"Insurance Coverage Amounts",91|92
+118,"Disability Insurance",91|92
+119,"Long-Term Care Insurance",91|92
+120,"Risk-Return Relationship",
+121,"Time Value of Money",
+122,"Compound Interest",121|123
+123,"Simple Interest",121
+124,"Growth Investing",120
+125,"Diversification",120
+126,"Asset Allocation",125
+127,"Dollar-Cost Averaging",126
+128,"Certificates of Deposit",123
+129,"Money Market Funds",21|22
+130,"Fixed Income Securities",121|123
+131,"Bonds",130
+132,"Treasury Securities",131
+133,"Equities",120
+134,"Stocks",133
+135,"ETFs",133|134
+136,"Mutual Funds",126|133|134
+137,"Index Funds",135|136
+138,"Employer Retirement Plans",121|122
+139,"Individual Retirement Accounts",121|122
+140,"Social Security Benefits",
+141,"Retirement Income Strategies",138|139|140
+142,"Required Minimum Distributions",139
+143,"Real Estate Investment Trusts",133
+144,"Commodities",120
+145,"Precious Metals",144
+146,"Options",133|134
+147,"Futures",144
+148,"Private Equity",133
+149,"Collectibles",120
+150,"Tangible Assets",120
+151,"Cryptocurrencies",14|120
+152,"Blockchain",151
+153,"Digital Payment Systems",14
+154,"Robo-Advisors",14|126
+155,"Algorithmic Investing",154
+156,"Peer-to-Peer Lending",14
+157,"International Markets",133
+158,"Foreign Securities",134|157
+159,"Currency Exchange",157
+160,"Emerging Markets",157
+161,"Geopolitical Risks",157|160
+162,"Market Structure",
+163,"Market Participants",162
+164,"Market Indices",162
+165,"Economic Indicators",
+166,"Market Cycles",162|165
+167,"Market Volatility",166
+168,"Behavioral Finance",
+169,"Market Psychology",168
+170,"Inflation",165
+171,"Deflation",165
+172,"Purchasing Power",170|171
+173,"Monetary Policy",165|175
+174,"Fiscal Policy",165
+175,"Federal Reserve",
+176,"Economic Growth",165
+177,"Recession",165|176
+178,"Globalization",157
+179,"First Job Financial Decisions",3|32|41
+180,"Student Loan Management",47|48|49|42
+181,"Building Credit",31|32
+182,"Workplace Benefits",1|80|99
+183,"Financial Priorities",4|5|7
+184,"Marriage & Finances",8|9|10
+185,"Children & Financial Planning",184
+186,"College Funding",83|185
+187,"Family Insurance Needs",90|99|107|111|112|115|116|117|118|119
+188,"Estate Planning Basics",1|192
+189,"Retirement Income Planning",141
+190,"Healthcare in Retirement",99|103|119|189
+191,"Social Security Optimization",140|189
+192,"Estate Planning",87|88
+193,"Inheritance Planning",192
+194,"Charitable Legacy",85|192
+195,"Opportunity Cost",1|4
+196,"Financial Statements",8|9
+197,"Net Worth",8
+198,"Financial Independence",7
+199,"Wealth Building",3|121|122|125
+200,"Financial Well-Being",1|2|3|4|5|6|7|199
