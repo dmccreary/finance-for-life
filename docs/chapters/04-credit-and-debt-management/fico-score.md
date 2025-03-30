@@ -1,5 +1,5 @@
 ---
-image: fico-score-spectrum.png
+image: chapters/04-credit-and-debt-management/fico-score-spectrum.png
 ---
 
 # Understanding Your FICO Credit Score: A Comprehensive Guide
