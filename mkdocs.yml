@@ -21,6 +21,7 @@ nav:
     - Credit & Debt Management:
       - chapters/04-credit-and-debt-management/index.md
       - The FICO Score: chapters/04-credit-and-debt-management/fico-score.md
+      - Credit Card Bias: chapters/04-credit-and-debt-management/credit-card-bias.md
     - Saving & Investing:
       - chapters/05-saving-and-investing/index.md
       - Index Funds: chapters/05-saving-and-investing/index-funds.md

@@ -16,6 +16,8 @@ Today, FICO scores are used by approximately 90% of top lenders when making cons
 
 ### Score Range and Interpretation
 
+<iframe src="/personal-finance/sims/fico-score-spectrum/main.html" height="300px"  scrolling="no"></iframe>
+
 FICO scores range from 300 to 850, with higher scores indicating lower credit risk. Here's how scores are typically categorized:
 
 | Score Range | Category | Interpretation |
@@ -136,6 +138,12 @@ Without a credit score, these individuals face higher costs for financial servic
 The credit scoring system inherently favors credit card users over those who prefer debit cards or cash. Since payment history and credit utilization heavily influence FICO scores, people who regularly and responsibly use credit cards generally achieve higher scores than those who avoid debt entirely.
 
 This creates a paradoxical situation: a person who uses credit cards frequently (but pays them off) appears more financially responsible to the scoring system than someone who avoids debt and pays for everything with cash or debit cards.
+
+[Read the Credit Card Bias In Detail](credit-card-bias.md)
+
+| Overall Results | Credit Card User (Alex) | Debit Card User (Jamie) |
+|----------------|-------------------------|-------------------------|
+| **Estimated FICO Score** | **810** (Exceptional) | **680** (Good) |
 
 *Figure 3: Comparison chart showing hypothetical credit scores for two financially responsible individuals—one who primarily uses credit cards and one who primarily uses debit cards—highlighting the scoring advantage for the credit card user despite similar financial responsibility.*
 
