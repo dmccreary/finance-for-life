@@ -1,4 +1,4 @@
-# MicroSim Template
+# Personal Finance MicroSim Template
 
 <iframe src="main.html" height="575px" scrolling="no"></iframe>
 
@@ -12,7 +12,7 @@
 ## Sample iframe
 
 ```html
-<iframe src="https://dmccreary.github.io/microsims/sims/name/main.html" height="535px"  scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/personal-finance/sims/name/main.html" height="535px"  scrolling="no"></iframe>
 ```
 
 ## About this MicroSim
