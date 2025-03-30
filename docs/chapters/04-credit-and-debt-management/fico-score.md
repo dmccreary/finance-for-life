@@ -50,6 +50,8 @@ The difference between a good and excellent credit score can translate to thousa
 
 Your FICO score is calculated based on five components, each weighted differently:
 
+![](./fico-piechart.png)
+
 *Figure 2: Pie chart showing the five components of a FICO score with their relative percentages: Payment History (35%), Amounts Owed (30%), Length of Credit History (15%), New Credit (10%), and Credit Mix (10%).*
 
 ### 1. Payment History (35%)
