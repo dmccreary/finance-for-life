@@ -1,10 +1,12 @@
 // Credit Score Spectrum MicroSim using p5.js
+// User see a horizontal rectangle with red on the left and green on the right
+// As they hover over the regions the score for that region is display in the infobox below the spectrum
 // Canvas dimensions
 let canvasWidth = 800;
-let canvasHeight = 300;
+let canvasHeight = 280;
 let margin = 40;
 let spectrumHeight = 60;
-let infoBoxHeight = 120;
+let infoBoxHeight = 100;
 let defaultTextSize = 16;
 
 // Score ranges data
