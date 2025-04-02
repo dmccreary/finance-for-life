@@ -1,6 +1,6 @@
 # Historical Stock Market Returns
 
-<iframe src="main.html" height="575px" scrolling="no"></iframe>
+<iframe src="main.html" height="570px" scrolling="no"></iframe>
 
 [Run the Stock Market Historical Returns MicroSim](main.html){ .md-button .md-button--primary }
 [Edit this MicroSim](https://editor.p5js.org/dmccreary/sketches/cEP195hP6)
@@ -8,7 +8,7 @@
 ## Sample iframe
 
 ```html
-<iframe src="https://dmccreary.github.io/personal-finance/sims/name/main.html" height="535px"  scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/personal-finance/sims/stock-market-returns/main.html" height="570px" scrolling="no"></iframe>
 ```
 
 Here's a revised table of the S&P 500's annual returns from 2024 to 1995, with the most recent year at the top. Each year includes a brief description of the factors influencing the market's performance:

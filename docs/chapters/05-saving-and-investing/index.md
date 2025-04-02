@@ -1,5 +1,7 @@
 # Saving & Investing
 
+<iframe src="../../sims/stock-market-returns/main.html" height="570px" scrolling="no"></iframe>
+
 ## Overview
 
 This chapter introduces the principles and practices of saving and investing for future financial goals. Students will learn about different savings vehicles, investment options, and the relationship between risk and return. We'll explore how markets work, the power of compound interest, and strategies for building wealth over time. Students will develop the knowledge needed to begin creating their own investment plans.
