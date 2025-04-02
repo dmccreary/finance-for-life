@@ -64,6 +64,8 @@ nav:
     - Active vs Indexed Funds: sims/active-vs-indexed/index.md
     - Social Security: sims/social-security-crossover/index.md
     - FICO Score Spectrum: sims/fico-score-spectrum/index.md
+    - Stock Market Historical Returns: sims/stock-market-returns/index.md
+
   - Resources:
     - Introduction: resources/index.md
     - Minnesota Personal Finance Legislation: resources/mn-legislation.md
