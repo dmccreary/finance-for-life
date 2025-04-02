@@ -1,6 +1,6 @@
 # Saving & Investing
 
-<iframe src="../../sims/stock-market-returns/main.html" height="570px" scrolling="no"></iframe>
+<iframe src="../../sims/stock-market-returns/main.html" height="560px" scrolling="no"></iframe>
 
 ## Overview
 
