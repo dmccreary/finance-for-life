@@ -65,6 +65,7 @@ nav:
     - Social Security: sims/social-security-crossover/index.md
     - FICO Score Spectrum: sims/fico-score-spectrum/index.md
     - Stock Market Historical Returns: sims/stock-market-returns/index.md
+    - US Treasury Bills: sims/t-bills/index.md
 
   - Resources:
     - Introduction: resources/index.md
