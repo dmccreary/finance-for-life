@@ -1,0 +1,363 @@
+// US Treasury Yield Curve Spread (1995-2025)
+// https://editor.p5js.org/dmccreary/sketches/o8bAp0emu
+// Canvas dimensions
+let canvasWidth = 1000;
+let drawHeight = 500;
+let controlHeight = 50;
+let canvasHeight = drawHeight + controlHeight;
+let margin = 40;
+let defaultTextSize = 16;
+let sliderLeftMargin = 140;
+
+// Global variables for responsive design
+let containerWidth; // calculated by container upon resize
+let containerHeight = canvasHeight; // fixed height on page
+
+// Data variables
+let yearsData = [];
+let currentHover = -1;
+let startYearSlider;
+let endYearSlider;
+let startYearIndex = 0;
+let endYearIndex = 30; // Default to show all years
+let barPadding = 2;
+
+// Treasury Rate Data
+const years = [1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025];
+const twoYearRates = [5.94,5.57,5.85,5.26,5.69,6.26,4.47,3.02,1.62,1.47,2.72,4.3,4.74,4.82,4.83,0.82,0.69,0.45,0.56,0.25,0.31,0.67,1.06,1.2,1.89,0.13,0.73,4.42,3.85,4.7,4.15];
+const tenYearRates = [6.57,6.44,6.35,5.26,5.65,6.03,5.02,4.61,3.82,4.01,4.27,4.8,4.84,4.63,3.26,3.22,2.78,2.14,1.88,1.8,2.35,2.54,2.14,2.33,2.28,0.89,1.94,3.88,3.86,4.35,4.51];
+
+// Calculate the spread (10-year minus 2-year)
+const yieldSpreads = [];
+for (let i = 0; i < years.length; i++) {
+  yieldSpreads.push(tenYearRates[i] - twoYearRates[i]);
+}
+
+// Calculate average spread
+const avgSpread = yieldSpreads.reduce((a, b) => a + b, 0) / yieldSpreads.length;
+
+// Min and max spread for scaling
+let maxSpread = Math.max(...yieldSpreads) + 0.5;
+let minSpread = Math.min(...yieldSpreads) - 0.5;
+
+// Historical significance of yield curve inversions
+const spreadEvents = {
+  1995: "Normal positive spread indicating economic expansion",
+  1996: "Spread narrows as economy matures",
+  1997: "Still positive but declining spread",
+  1998: "Temporary yield curve flattening from financial crisis",
+  1999: "Narrowing spread signals potential economic slowdown",
+  2000: "Yield curve inversion signals approaching recession",
+  2001: "Recession begins after yield curve inverted",
+  2002: "Spread widens as Fed cuts short-term rates dramatically",
+  2003: "Very steep yield curve suggests strong future growth",
+  2004: "Spread narrows as Fed begins raising short-term rates",
+  2005: "Yield curve continues to flatten",
+  2006: "Yield curve inverts, signaling housing market troubles",
+  2007: "Inversion persists ahead of Great Recession",
+  2008: "Spread widens dramatically during financial crisis",
+  2009: "Steep yield curve as Fed keeps short-term rates near zero",
+  2010: "Wide spread indicates expansionary monetary policy",
+  2011: "Spread narrows amid European debt concerns",
+  2012: "Positive spread during slow economic recovery",
+  2013: "Spread widens during the 'taper tantrum'",
+  2014: "Gradual flattening as Fed signals policy normalization",
+  2015: "Narrowing spread as Fed begins raising rates",
+  2016: "Spread widens after temporary growth concerns",
+  2017: "Flattening curve as short-term rates rise faster",
+  2018: "Spread approaches zero as Fed continues tightening",
+  2019: "Curve inverts again, signaling recession concerns",
+  2020: "Spread widens during COVID-19 pandemic response",
+  2021: "Steepening curve amid inflation expectations",
+  2022: "Curve inverts as Fed aggressively raises rates",
+  2023: "Deep inversion signals recession concerns",
+  2024: "Inversion eases as Fed begins cutting rates",
+  2025: "Spread returns to more normal levels"
+};
+
+// Call this in setup and after a resize
+function sliderSetup() {
+    startYearSlider.position(sliderLeftMargin, drawHeight + 15);
+    startYearSlider.size(containerWidth/2 - margin - 120);
+    endYearSlider.position(containerWidth/2 + sliderLeftMargin-20, drawHeight + 15);
+    endYearSlider.size(containerWidth/2 - margin - 130);
+}
+
+function setup() {
+  // Create a canvas to match the parent container's size
+  updateCanvasSize();
+  const canvas = createCanvas(containerWidth, containerHeight);
+  canvas.parent(document.querySelector('main'));
+  textSize(defaultTextSize);
+  
+  // Initialize data
+  initializeData();
+  
+  // Create year range sliders
+  startYearSlider = createSlider(0, years.length - 2, 0);
+  endYearSlider = createSlider(1, years.length - 1, years.length - 1);
+  sliderSetup();
+  
+  describe('A time-series visualization of the yield curve spread (10-Year minus 2-Year Treasury rates) from 1995 to 2025, showing periods of inversion and their economic significance.', LABEL);
+}
+
+function draw() {
+  // Draw area
+  fill('aliceblue');
+  stroke('silver');
+  strokeWeight(1);
+  rect(0, 0, canvasWidth, drawHeight);
+  
+  // Controls area
+  fill('white');
+  stroke('silver');
+  strokeWeight(1);
+  rect(0, drawHeight, canvasWidth, controlHeight);
+  
+  // Update range from sliders
+  startYearIndex = startYearSlider.value();
+  endYearIndex = endYearSlider.value();
+  
+  // Ensure start doesn't exceed end
+  if (startYearIndex >= endYearIndex) {
+    endYearIndex = startYearIndex + 1;
+    endYearSlider.value(endYearIndex);
+  }
+  
+  // Title
+  fill('black');
+  noStroke();
+  textSize(24);
+  textAlign(CENTER, TOP);
+  text("US Treasury Yield Curve Spread (1995-2025)", canvasWidth/2, margin/3);
+  textSize(16);
+  text("10-Year Treasury Rate minus 2-Year Treasury Rate", canvasWidth/2, margin/3 + 30);
+  
+  // Draw chart
+  drawSpreadChart();
+  
+  // Draw control labels
+  drawControlLabels();
+}
+
+function drawControlLabels() {
+  fill('black');
+  noStroke();
+  textSize(defaultTextSize);
+  textAlign(LEFT, CENTER);
+  
+  let startYear = years[startYearIndex];
+  let endYear = years[endYearIndex];
+  
+  text(`Start Year: ${startYear}`, margin/4, drawHeight + 25);
+  text(`End Year: ${endYear}`, containerWidth/2, drawHeight + 25);
+}
+
+function initializeData() {
+  // Initialize data structure
+  yearsData = years.map((year, index) => {
+    return {
+      year: year,
+      twoYearRate: twoYearRates[index],
+      tenYearRate: tenYearRates[index],
+      spread: yieldSpreads[index],
+      event: spreadEvents[year] || "No significant event"
+    };
+  });
+}
+
+function drawSpreadChart() {
+  // Set up chart area
+  let chartMargin = 60;
+  let chartWidth = canvasWidth - 2 * chartMargin;
+  let chartHeight = drawHeight - 2 * chartMargin - 30;
+  let zeroLine = map(0, minSpread, maxSpread, chartMargin + chartHeight, chartMargin);
+  
+  // Draw zero line (crucial for yield curve analysis)
+  stroke(100);
+  strokeWeight(2);
+  line(chartMargin, zeroLine, chartMargin + chartWidth, zeroLine);
+  noStroke();
+  fill(0);
+  textSize(12);
+  textAlign(RIGHT, CENTER);
+  text("0%", chartMargin - 5, zeroLine);
+  
+  // Draw reference lines
+  for (let i = Math.ceil(minSpread); i <= Math.floor(maxSpread); i++) {
+    if (i === 0) continue; // Skip zero line as we already drew it
+    
+    let y = map(i, minSpread, maxSpread, chartMargin + chartHeight, chartMargin);
+    stroke(220);
+    strokeWeight(0.5);
+    line(chartMargin, y, chartMargin + chartWidth, y);
+    noStroke();
+    fill(0);
+    textAlign(RIGHT, CENTER);
+    textSize(12);
+    text(i + "%", chartMargin - 5, y);
+  }
+  
+  // Calculate bar width based on visible range
+  let yearCount = endYearIndex - startYearIndex + 1;
+  let barWidth = chartWidth / yearCount - barPadding;
+  
+  currentHover = -1;
+  
+  // Draw bars for each year
+  for (let i = startYearIndex; i <= endYearIndex; i++) {
+    let data = yearsData[i];
+    let x = chartMargin + (i - startYearIndex) * (barWidth + barPadding);
+    
+    // Spread bar
+    let spreadHeight = Math.abs(data.spread) * chartHeight / (maxSpread - minSpread);
+    let spreadY = data.spread >= 0 ? zeroLine - spreadHeight : zeroLine;
+    
+    // Choose color based on spread (green for positive, red for negative/inverted)
+    let barColor = data.spread >= 0 ? color(0, 150, 0) : color(200, 0, 0);
+    
+    // Check if mouse is over this bar
+    if (mouseX >= x && mouseX <= x + barWidth && 
+        mouseY >= min(spreadY, zeroLine) && 
+        mouseY <= max(spreadY + spreadHeight, zeroLine)) {
+      // Highlight on hover
+      barColor = data.spread >= 0 ? color(0, 200, 0) : color(255, 0, 0);
+      currentHover = i;
+    }
+    
+    // Draw the bar
+    fill(barColor);
+    noStroke();
+    rect(x, spreadY, barWidth, spreadHeight);
+    
+    // Draw year labels (rotated for better fit)
+    if (yearCount <= 15 || i % Math.max(1, Math.floor(yearCount / 15)) === 0) {
+      push();
+      fill(0);
+      textSize(10);
+      textAlign(CENTER, TOP);
+      translate(x + barWidth/2, chartMargin + chartHeight + 5);
+      rotate(PI/4); // Rotate text to avoid overlap
+      text(data.year, 0, 0);
+      pop();
+    }
+  }
+  
+  // Draw the Average Spread Line
+  stroke(80, 80, 200); // Purple
+  strokeWeight(2);
+  let avgSpreadY = map(avgSpread, minSpread, maxSpread, chartMargin + chartHeight, chartMargin);
+  line(chartMargin, avgSpreadY, chartMargin + chartWidth, avgSpreadY);
+  
+  // Add legend
+  noStroke();
+  fill(0);
+  textSize(14);
+  textAlign(LEFT, CENTER);
+  
+  // Draw legend container
+  fill(255, 255, 255, 200);
+  stroke(200);
+  strokeWeight(1);
+  rect(chartMargin, chartMargin, 350, 70);
+  
+  // Positive spread (normal)
+  noStroke();
+  fill(0, 150, 0);
+  rect(chartMargin + 15, chartMargin + 10, 15, 15);
+  fill(0);
+  textAlign(LEFT, CENTER);
+  text("Positive Spread (Normal, Expansionary)", chartMargin + 40, chartMargin + 17);
+  
+  // Negative spread (inverted)
+  fill(200, 0, 0);
+  rect(chartMargin + 15, chartMargin + 30, 15, 15);
+  fill(0);
+  text("Negative Spread (Inverted, Recessionary Signal)", chartMargin + 40, chartMargin + 37);
+  
+  // Average line
+  stroke(80, 80, 200);
+  strokeWeight(2);
+  line(chartMargin + 15, chartMargin + 55, chartMargin + 30, chartMargin + 55);
+  fill(0);
+  noStroke();
+  text(`Historical Average Spread: ${avgSpread.toFixed(2)}%`, chartMargin + 40, chartMargin + 55);
+  
+  // Display hover information
+  if (currentHover >= 0) {
+    let data = yearsData[currentHover];
+    let infoX = chartMargin;
+    let infoY = drawHeight - 60;
+    let infoWidth = canvasWidth - (chartMargin * 2);
+    let infoHeight = 60;
+    
+    // Draw info box
+    fill(255, 250, 240);
+    stroke(100);
+    strokeWeight(1);
+    rect(infoX, infoY, infoWidth, infoHeight, 5);
+    
+    // Draw info text
+    noStroke();
+    fill(0);
+    textSize(16);
+    textAlign(LEFT, TOP);
+    text(`${data.year}: Yield Spread: ${data.spread.toFixed(2)}% (10-Year: ${data.tenYearRate.toFixed(2)}% - 2-Year: ${data.twoYearRate.toFixed(2)}%)`, infoX + 10, infoY + 10);
+    
+    textSize(14);
+    text(`${data.event}`, infoX + 10, infoY + 35, infoWidth - 20, infoHeight - 40);
+  }
+  
+  // Add recession indicators (shaded areas for known recession periods)
+  // 2001 Recession
+  let x2001Start = chartMargin + (years.indexOf(2001) - startYearIndex) * (barWidth + barPadding);
+  let x2001End = chartMargin + (years.indexOf(2002) - startYearIndex) * (barWidth + barPadding);
+  
+  if (years.indexOf(2001) >= startYearIndex && years.indexOf(2001) <= endYearIndex) {
+    fill(200, 0, 0, 50);
+    noStroke();
+    rect(x2001Start, chartMargin, x2001End - x2001Start, chartHeight);
+  }
+  
+  // 2007-2009 Financial Crisis
+  let x2007Start = chartMargin + (years.indexOf(2007) - startYearIndex) * (barWidth + barPadding);
+  let x2009End = chartMargin + (years.indexOf(2010) - startYearIndex) * (barWidth + barPadding);
+  
+  if (years.indexOf(2007) >= startYearIndex && years.indexOf(2007) <= endYearIndex) {
+    fill(200, 0, 0, 50);
+    noStroke();
+    rect(x2007Start, chartMargin, x2009End - x2007Start, chartHeight);
+  }
+  
+  // 2020 COVID Recession
+  let x2020Start = chartMargin + (years.indexOf(2020) - startYearIndex) * (barWidth + barPadding);
+  let x2020End = chartMargin + (years.indexOf(2021) - startYearIndex) * (barWidth + barPadding);
+  
+  if (years.indexOf(2020) >= startYearIndex && years.indexOf(2020) <= endYearIndex) {
+    fill(200, 0, 0, 50);
+    noStroke();
+    rect(x2020Start, chartMargin, x2020End - x2020Start, chartHeight);
+  }
+}
+
+function windowResized() {
+  // Update canvas size when the container resizes
+  updateCanvasSize();
+  resizeCanvas(containerWidth, containerHeight);
+  redraw();
+  
+  // Resize the sliders to match the new canvasWidth
+  sliderSetup();
+}
+
+function updateCanvasSize() {
+  // Get the exact dimensions of the container
+  const container = document.querySelector('main');
+  if (container) {
+    const rect = container.getBoundingClientRect();
+    containerWidth = Math.floor(rect.width);  // Avoid fractional pixels
+  } else {
+    containerWidth = windowWidth;
+  }
+  canvasWidth = containerWidth;
+}

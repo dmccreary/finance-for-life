@@ -66,6 +66,7 @@ nav:
     - FICO Score Spectrum: sims/fico-score-spectrum/index.md
     - Stock Market Historical Returns: sims/stock-market-returns/index.md
     - US Treasury Bills: sims/t-bills/index.md
+    - Yield Curve: sims/yield-curve/index.md
 
   - Resources:
     - Introduction: resources/index.md
