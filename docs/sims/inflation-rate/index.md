@@ -6,8 +6,8 @@
 ![Image Name](./image.png){ width="400" }
 -->
 
-[Run the Interest Rate MicroSim](main.html){ .md-button .md-button--primary }
-[Edit Interest Rate MicroSim](https://editor.p5js.org/dmccreary/sketches/dJq4nTXE4)
+[Run the Inflation Rate MicroSim](main.html){ .md-button .md-button--primary }
+[Edit Inflation Rate MicroSim](https://editor.p5js.org/dmccreary/sketches/dJq4nTXE4)
 
 ## Sample iframe
 
