@@ -64,6 +64,8 @@ nav:
     - Active vs Indexed Funds: sims/active-vs-indexed/index.md
     - Social Security: sims/social-security-crossover/index.md
     - FICO Score Spectrum: sims/fico-score-spectrum/index.md
+    - Inflation Rate: sims/inflation-rate/index.md
+    - Interest Rate: sims/interest-rate/index.md
     - Stock Market Historical Returns: sims/stock-market-returns/index.md
     - US Treasury Bills: sims/t-bills/index.md
     - Yield Curve: sims/yield-curve/index.md
