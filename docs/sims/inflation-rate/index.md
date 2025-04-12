@@ -7,7 +7,7 @@
 -->
 
 [Run the Inflation Rate MicroSim](main.html){ .md-button .md-button--primary }
-[Edit Inflation Rate MicroSim](https://editor.p5js.org/dmccreary/sketches/Tf9NHLTDe)
+[Edit Inflation Rate MicroSim](https://editor.p5js.org/dmccreary/sketches/H9IYB7r8n)
 
 ## Sample iframe
 

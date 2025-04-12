@@ -24,6 +24,14 @@ let maxInflation = 7.9;
 let minInflation = -1;
 let barPadding = 2;
 
+// Legend variables
+let legendX;
+let legendY;
+let legendWidth = 390;
+let legendHeight = 80;
+let legendPadding = 10;
+let legendItemHeight = 20;
+
 // call this in setup and after a resize
 function sliderSetup() {
     startYearSlider.position(sliderLeftMargin, drawHeight + 15);
@@ -47,7 +55,11 @@ function setup() {
   endYearSlider = createSlider(1, inflationData.length - 1, inflationData.length - 1);
   sliderSetup();
   
-  describe('A visualization of U.S. inflation rates from 1995 to 2025 showing annual percentage changes in the Consumer Price Index.', LABEL);
+  // Set legend position
+  legendX = margin * 1.5;
+  legendY = margin;
+  
+  describe('A visualization of U.S. inflation rates from 1995 to 2025 showing annual percentage changes in the Consumer Price Index with a color-coded legend.', LABEL);
 }
 
 function draw() {
@@ -82,6 +94,9 @@ function draw() {
   
   // Draw chart and hover information
   drawBarChart();
+  
+  // Draw legend
+  drawLegend();
   
   // Draw control labels
   drawControlLabels();
@@ -136,6 +151,58 @@ function initializeData() {
     { year: 2024, rate: 2.9, influence: "Inflation continued trending toward Fed's 2% target as rate hikes impacted economy." },
     { year: 2025, rate: 2.4, influence: "Current inflation rate (as of March 2025) reflecting more normalized price growth." }
   ];
+}
+
+function drawLegend() {
+  push();
+  // Draw legend background
+  fill(255, 255, 255, 220);
+  stroke(100);
+  strokeWeight(1);
+  rect(legendX, legendY, legendWidth, legendHeight, 5);
+  
+  // Setup for legend items
+  textAlign(LEFT, CENTER);
+  textSize(12);
+  let itemY = legendY + legendPadding;
+  let itemBoxSize = 15;
+  
+  // Deflation - purple
+  fill(220, 70, 220);
+  rect(legendX + legendPadding, itemY, itemBoxSize, itemBoxSize);
+  fill(0);
+  text("Deflation (< 0%)", legendX + legendPadding + itemBoxSize + 5, itemY + itemBoxSize/2);
+  itemY += legendItemHeight + 5;
+  
+  // Below target - blue
+  fill(50, 100, 220);
+  rect(legendX + legendPadding, itemY, itemBoxSize, itemBoxSize);
+  fill(0);
+  text("Below Target (0% - 1.5%)", legendX + legendPadding + itemBoxSize + 5, itemY + itemBoxSize/2);
+  itemY += legendItemHeight + 5;
+  
+  // Near target - green
+  fill(50, 180, 50);
+  rect(legendX + legendPadding, itemY, itemBoxSize, itemBoxSize);
+  fill(0);
+  text("Target Range (1.5% - 2.5%)", legendX + legendPadding + itemBoxSize + 5, itemY + itemBoxSize/2);
+  
+  // reset for the second column
+  itemY = legendY + legendPadding;
+  
+  // Moderate high - yellow
+  fill(220, 180, 50);
+  rect(legendX + legendPadding + 200, itemY, itemBoxSize, itemBoxSize);
+  fill(0);
+  text("Moderate High (2.5% - 4%)", legendX + legendPadding + itemBoxSize + 5 + 200, itemY + itemBoxSize/2);
+  itemY += legendItemHeight + 5;
+  
+  // High inflation - red
+  fill(220, 50, 50);
+  rect(legendX + legendPadding + 200, itemY, itemBoxSize, itemBoxSize);
+  fill(0);
+  text("High Inflation (> 4%)", legendX + legendPadding + itemBoxSize + 5 + 200, itemY + itemBoxSize/2);
+  pop()
 }
 
 function drawBarChart() {
@@ -324,6 +391,10 @@ function windowResized() {
   // Update canvas size when the container resizes
   updateCanvasSize();
   resizeCanvas(containerWidth, containerHeight);
+  
+  // Update legend position
+  legendX = canvasWidth - legendWidth - margin/2;
+  
   redraw();
   
   // Resize the sliders to match the new canvasWidth
