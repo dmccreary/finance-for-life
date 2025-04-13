@@ -392,9 +392,6 @@ function windowResized() {
   updateCanvasSize();
   resizeCanvas(containerWidth, containerHeight);
   
-  // Update legend position
-  legendX = canvasWidth - legendWidth - margin/2;
-  
   redraw();
   
   // Resize the sliders to match the new canvasWidth
