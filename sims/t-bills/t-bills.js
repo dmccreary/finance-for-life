@@ -306,9 +306,9 @@ function drawBarChart() {
   if (currentHover >= 0) {
     let data = yearsData[currentHover];
     let infoX = chartMargin;
-    let infoY = drawHeight - 100;
+    let infoY = drawHeight - 60;
     let infoWidth = canvasWidth - (chartMargin * 2);
-    let infoHeight = 70;
+    let infoHeight = 60;
     
     // Draw info box
     fill(255, 250, 240);
