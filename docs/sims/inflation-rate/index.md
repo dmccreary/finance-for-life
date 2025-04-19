@@ -1,4 +1,4 @@
-# Personal Finance MicroSim Template
+# Inflation Rate MicroSim Template
 
 <iframe src="main.html" height="450px" scrolling="no"></iframe>
 
