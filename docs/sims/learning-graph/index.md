@@ -1,5 +1,3 @@
-# Learning Graph
+# MicroSims for Personal Finance
 
-## Learning Graph for Finance for Life Course
-
-[Run the Learning Graph MicroSim](./graph-viewer.html)
+[Run the Personal Finance Learning Graph](./graph-viewer.html)
