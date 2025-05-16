@@ -107,6 +107,7 @@ plugins:
   - social
   - social_override
 markdown_extensions:
+  - meta
   - admonition
   - pymdownx.details
   - pymdownx.superfences
